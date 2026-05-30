@@ -10,7 +10,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'nav.contact': 'Contacto',
 
     // Hero
-    'hero.preTitle': 'Coleção Estabelecida',
+    'hero.preTitle': 'Coleção de Referência',
     'hero.brand': 'MARTINEZ',
     'hero.subBrand': 'M.13',
     'hero.tagline': 'Elegância Premium',
@@ -55,7 +55,7 @@ export const translations: Record<Language, Record<string, string>> = {
     // Custom Orders
     'custom.label': 'Além Da Coleção',
     'custom.heading': 'Encomendas Personalizadas',
-    'custom.description': 'Para quem procura algo verdadeiramente único. Um serviço feito à medida que transforma visão em peça, com a mesma exigência e rigor que definem a Martinez M.13.',
+    'custom.description': 'Para quem procura algo verdadeiramente único. Um serviço feito à medida que transforma visão em peça, com a mesma exigência e rigor que definem a Martinez M.13',
     'custom.feature1.title': 'Design Sob Medida',
     'custom.feature1.description': 'Criações desenvolvidas em colaboração direta, desde a ideia inicial até à execução final — cada detalhe pensado para refletir a sua identidade.',
     'custom.feature2.title': 'Seleção de Materiais',
@@ -67,7 +67,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'custom.cta.button': 'Contactar via WhatsApp',
 
     // Contact
-    'contact.label': 'Entre Em Contato',
+    'contact.label': 'Entre Em Contacto',
     'contact.heading': 'Contacto',
     'contact.description': 'Acreditamos em conexões pessoais. Contacte-nos diretamente — sem formulários, sem esperas.',
     'contact.whatsapp.label': 'WhatsApp',
@@ -142,7 +142,7 @@ export const translations: Record<Language, Record<string, string>> = {
     // Custom Orders
     'custom.label': 'Beyond The Collection',
     'custom.heading': 'Custom Orders',
-    'custom.description': 'For those seeking something truly unique. A bespoke service that transforms vision into form, guided by the same uncompromising standards that define Martinez M.13.',
+    'custom.description': 'For those seeking something truly unique. A bespoke service that transforms vision into form, guided by the same uncompromising standards that define Martinez M.13',
     'custom.feature1.title': 'Bespoke Design',
     'custom.feature1.description': 'Creations developed in close collaboration, from initial concept to final execution — every detail carefully considered to reflect your identity.',
     'custom.feature2.title': 'Material Selection',

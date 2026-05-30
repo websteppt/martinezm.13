@@ -8,7 +8,7 @@ const contactMethods = [
     labelKey: 'contact.whatsapp.label',
     valueKey: 'contact.whatsapp.value',
     descKey: 'contact.whatsapp.description',
-    href: 'https://wa.me/1234567890?text=Hello%20Martinez%20M.13',
+    //href: 'https://wa.me/1234567890?text=Hello%20Martinez%20M.13',
     external: true,
   },
   {
@@ -16,7 +16,7 @@ const contactMethods = [
     labelKey: 'contact.email.label',
     valueKey: 'contact.email.value',
     descKey: 'contact.email.description',
-    href: 'mailto:contact@martinezm13.com',
+    //href: 'mailto:contact@martinezm13.com',
     external: false,
   },
   {
@@ -24,7 +24,7 @@ const contactMethods = [
     labelKey: 'contact.instagram.label',
     valueKey: 'contact.instagram.value',
     descKey: 'contact.instagram.description',
-    href: 'https://instagram.com/martinezm13',
+    //href: 'https://instagram.com/martinezm13',
     external: true,
   },
 ];

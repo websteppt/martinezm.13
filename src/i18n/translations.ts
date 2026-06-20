@@ -22,9 +22,9 @@ export const translations: Record<Language, Record<string, string>> = {
     'about.label': 'A Casa',
     'about.heading': 'O Nosso Legado',
     'about.story1': 'Nascida da reverência pelo artesanato intemporal e de uma busca constante pela perfeição.',
-    'about.story2': 'A Martinez M.13 é mais do que uma marca — é uma declaração de intenção. Cada peça da coleção resulta da fusão entre técnica tradicional e visão contemporânea, criada para aqueles que entendem que o verdadeiro luxo não precisa de ser anunciado.',
-    'about.story3': 'Da seleção rigorosa dos materiais ao detalhe preciso de cada acabamento, cada criação reflete a dedicação de um saber artesanal construído ao longo de anos de experiência.',
-    'about.accent': 'Uma elegância silenciosa. Intencional. Duradoura.',
+    'about.story2': 'A Martinez M.13 nasceu da paixão pelo desenho e da vontade de transformar ideias em peças físicas capazes de dar uma nova identidade aos espaços.',
+    'about.story3': 'Cada criação percorre um processo cuidado, onde o desenho, o relevo, a textura e o acabamento se unem para criar peças verdadeiramente únicas. Mais do que elementos decorativos, são superfícies pensadas para marcar presença e contar uma história.',
+    'about.accent': 'Guiada pela ambição, pela irreverência e pela atenção ao detalhe, a Martinez M.13 procura desafiar o convencional e apresentar uma nova forma de interpretar o design modular para interiores.',
 
     // Collection
     'collection.label': 'Peças Assinatura',

@@ -2,7 +2,16 @@ import { useReveal } from '../hooks/useReveal';
 import { useTranslation } from '../i18n/LanguageContext';
 import { ArrowRight } from 'lucide-react';
 
-const productKeys = [
+type Product = {
+  name: string;
+  category: string;
+  description: string;
+  image: string;
+};
+
+
+
+const productKeys: Product[] = [
   //{ name: 'collection.product1.name', category: 'collection.product1.category', description: 'collection.product1.description', image: 'https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=800' },
   //{ name: 'collection.product2.name', category: 'collection.product2.category', description: 'collection.product2.description', image: 'https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&w=800' },
   //{ name: 'collection.product3.name', category: 'collection.product3.category', description: 'collection.product3.description', image: 'https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg?auto=compress&cs=tinysrgb&w=800' },

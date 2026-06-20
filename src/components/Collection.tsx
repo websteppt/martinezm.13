@@ -90,6 +90,10 @@ export default function Collection() {
             </div>
           ))}
         </div>
+           {/* Note */}
+        <p className="text-center font-body text-xs text-midnight-400 mt-10 max-w-xl mx-auto leading-relaxed whitespace-pre-line">
+          {t('collection.note')}
+        </p>
       </div>
     </section>
   );

@@ -29,7 +29,7 @@ export const translations: Record<Language, Record<string, string>> = {
     // Collection
     'collection.label': 'Peças Assinatura',
     'collection.heading': 'A Coleção',
-    'collection.description': 'Painéis decorativos concebidos para elevar os espaços através da textura e do design. Cada peça representa um compromisso com a qualidade, criada para durar e inspirar ao longo do tempo.',
+    'collection.description': 'Paredes modulares concebidoas para elevar os espaços através da textura e do design. Cada projeto representa um compromisso com a qualidade, criado para durar e inspirar ao longo do tempo.',
     'collection.note': 'Cada peça é produzida exclusivamente por encomenda, garantindo um resultado único.\n Mesmo dentro da mesma coleção, não existem duas peças exatamente iguais.',
     'collection.inquire': 'Consultar',
 
@@ -116,7 +116,7 @@ export const translations: Record<Language, Record<string, string>> = {
     // Collection
     'collection.label': 'Signature Pieces',
     'collection.heading': 'The Collection',
-    'collection.description': 'Decorative panels designed to elevate spaces through texture and design. Each piece represents a commitment to quality, created to last and inspire over time.',
+    'collection.description': 'Modular wall panels designed to transform interiors through texture, depth, and timeless design. Every project reflects our commitment to exceptional craftsmanship and enduring quality, creating spaces that inspire for years to come.',
     'collection.note': 'Each piece is produced exclusively to order, ensuring a unique result.\n Even within the same collection, no two pieces are ever exactly alike.',
     'collection.inquire': 'Inquire',
 

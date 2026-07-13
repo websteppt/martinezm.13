@@ -29,29 +29,21 @@ export const translations: Record<Language, Record<string, string>> = {
     // Collection
     'collection.label': 'Peças Assinatura',
     'collection.heading': 'A Coleção',
-    'collection.description': 'Paredes modulares concebidoas para elevar os espaços através da textura e do design. Cada projeto representa um compromisso com a qualidade, criado para durar e inspirar ao longo do tempo.',
+    'collection.description': 'Paredes modulares concebidas para elevar os espaços através da textura e do design. Cada projeto representa um compromisso com a qualidade, criado para durar e inspirar ao longo do tempo.',
     'collection.note': 'Cada peça é produzida exclusivamente por encomenda, garantindo um resultado único.\n Mesmo dentro da mesma coleção, não existem duas peças exatamente iguais.',
     'collection.inquire': 'Consultar',
 
-    // Collection products
-    //'collection.product1.name': 'The Sovereign',
-    //'collection.product1.category': 'Artigos em Couro',
-    //'collection.product1.description': 'Couro bezerro italiano costurado à mão com ferragem dourada exclusiva.',
-    //'collection.product2.name': 'Aura Noir',
-    //'collection.product2.category': 'Relógios',
-    //'collection.product2.description': 'Movimento suíço envolto em titânio escovado com cristal de safira.',
-    //'collection.product3.name': 'Éclat Reserve',
-    //'collection.product3.category': 'Fragrância',
-    //'collection.product3.description': 'Oud, âmbar e orquídea negra — um aroma assinatura intoxicante.',
-    //'collection.product4.name': 'The Monarch',
-    //'collection.product4.category': 'Acessórios',
-    //'collection.product4.description': 'Abotoaduras de ouro 18k usinadas com precisão e incrustação de ônix.',
-    //'collection.product5.name': 'Noir Silhouette',
-    //'collection.product5.category': 'Vestuário',
-    //'collection.product5.description': 'Sobretudo de cashmere meia-noite sob medida com lapelas de cetim.',
-    //'collection.product6.name': 'The Vault',
-    //'collection.product6.category': 'Edição Limitada',
-    //'collection.product6.description': 'Peças de colecionador numeradas — disponíveis apenas mediante convite.',
+    // Collections
+    'collection.col1.name': 'Coleção 1',
+    'collection.col1.description': 'Descrição da coleção 1.',
+    'collection.col1.product1.name': 'Produto 1',
+    'collection.col1.product1.description': 'Descrição do produto 1.',
+    'collection.col1.product2.name': 'Produto 2',
+    'collection.col1.product2.description': 'Descrição do produto 2.',
+    'collection.col2.name': 'Coleção 2',
+    'collection.col2.description': 'Descrição da coleção 2.',
+    'collection.col3.name': 'Coleção 3',
+    'collection.col3.description': 'Descrição da coleção 3.',
 
     // Custom Orders
     'custom.label': 'Além Da Coleção',
@@ -85,7 +77,7 @@ export const translations: Record<Language, Record<string, string>> = {
     // Footer
     'footer.tagline': 'Elegância Premium',
     'footer.rights': 'Todos os direitos reservados.',
-    'footer.credit': 'Crafted by Web Step.'
+    'footer.credit': 'Crafted by Web Step.',
   },
 
   en: {
@@ -120,25 +112,17 @@ export const translations: Record<Language, Record<string, string>> = {
     'collection.note': 'Each piece is produced exclusively to order, ensuring a unique result.\n Even within the same collection, no two pieces are ever exactly alike.',
     'collection.inquire': 'Inquire',
 
-    // Collection products
-    //'collection.product1.name': 'The Sovereign',
-    //'collection.product1.category': 'Leather Goods',
-    //'collection.product1.description': 'Hand-stitched Italian calfskin with signature gold hardware.',
-    //'collection.product2.name': 'Aura Noir',
-    //'collection.product2.category': 'Timepieces',
-    //'collection.product2.description': 'Swiss movement encased in brushed titanium with sapphire crystal.',
-    //'collection.product3.name': 'Éclat Reserve',
-    //'collection.product3.category': 'Fragrance',
-    //'collection.product3.description': 'Oud, amber, and black orchid — an intoxicating signature scent.',
-    //'collection.product4.name': 'The Monarch',
-    //'collection.product4.category': 'Accessories',
-    //'collection.product4.description': 'Precision-milled 18k gold cuff links with onyx inlay.',
-    //'collection.product5.name': 'Noir Silhouette',
-    //'collection.product5.category': 'Apparel',
-    //'collection.product5.description': 'Tailored midnight cashmere overcoat with satin lapels.',
-    //'collection.product6.name': 'The Vault',
-    //'collection.product6.category': 'Limited Edition',
-    //'collection.product6.description': 'Numbered collector pieces — available by invitation only.',
+    // Collections
+    'collection.col1.name': 'Collection 1',
+    'collection.col1.description': 'Collection 1 description.',
+    'collection.col1.product1.name': 'Product 1',
+    'collection.col1.product1.description': 'Product 1 description.',
+    'collection.col1.product2.name': 'Product 2',
+    'collection.col1.product2.description': 'Product 2 description.',
+    'collection.col2.name': 'Collection 2',
+    'collection.col2.description': 'Collection 2 description.',
+    'collection.col3.name': 'Collection 3',
+    'collection.col3.description': 'Collection 3 description.',
 
     // Custom Orders
     'custom.label': 'Beyond The Collection',
@@ -172,6 +156,6 @@ export const translations: Record<Language, Record<string, string>> = {
     // Footer
     'footer.tagline': 'Premium Elegance',
     'footer.rights': 'All rights reserved.',
-    'footer.credit': 'Crafted by Web Step.'
+    'footer.credit': 'Crafted by Web Step.',
   },
 };

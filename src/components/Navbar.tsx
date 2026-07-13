@@ -1,25 +1,40 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { useTranslation } from '../i18n/LanguageContext';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 const navKeys = [
-  { label: 'nav.home', href: '#hero' },
-  { label: 'nav.about', href: '#about' },
-  { label: 'nav.collection', href: '#collection' },
-  { label: 'nav.custom', href: '#custom' },
-  { label: 'nav.contact', href: '#contact' },
+  { label: 'nav.home', section: 'hero' },
+  { label: 'nav.about', section: 'about' },
+  { label: 'nav.collection', section: 'collection' },
+  { label: 'nav.custom', section: 'custom' },
+  { label: 'nav.contact', section: 'contact' },
 ];
 
 export default function Navbar() {
   const { t, language, setLanguage } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
+
+  const handleNavClick = (section: string) => {
+    setMenuOpen(false);
+    if (location.pathname === '/') {
+      document.getElementById(section)?.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      navigate('/');
+      setTimeout(() => {
+        document.getElementById(section)?.scrollIntoView({ behavior: 'smooth' });
+      }, 100);
+    }
+  };
 
   return (
     <nav
@@ -31,20 +46,23 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <a href="#hero" className="font-display text-2xl tracking-widest gold-gradient-text">
+          <button
+            onClick={() => handleNavClick('hero')}
+            className="font-display text-2xl tracking-widest gold-gradient-text"
+          >
             MARTINEZ M.13
-          </a>
+          </button>
 
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-10">
             {navKeys.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
+              <button
+                key={link.section}
+                onClick={() => handleNavClick(link.section)}
                 className="font-body text-sm tracking-[0.2em] uppercase text-midnight-200 hover:text-gold-400 transition-colors duration-300"
               >
                 {t(link.label)}
-              </a>
+              </button>
             ))}
 
             {/* Language toggle */}
@@ -114,14 +132,13 @@ export default function Navbar() {
       >
         <div className="bg-midnight-900/98 backdrop-blur-md border-t border-gold-700/20 px-6 py-6 space-y-4">
           {navKeys.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              onClick={() => setMenuOpen(false)}
-              className="block font-body text-sm tracking-[0.2em] uppercase text-midnight-200 hover:text-gold-400 transition-colors duration-300"
+            <button
+              key={link.section}
+              onClick={() => handleNavClick(link.section)}
+              className="block w-full text-left font-body text-sm tracking-[0.2em] uppercase text-midnight-200 hover:text-gold-400 transition-colors duration-300"
             >
               {t(link.label)}
-            </a>
+            </button>
           ))}
         </div>
       </div>

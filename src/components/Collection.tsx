@@ -1,27 +1,21 @@
 import { useReveal } from '../hooks/useReveal';
 import { useTranslation } from '../i18n/LanguageContext';
-import { ArrowRight } from 'lucide-react';
-//import product1 from '../assets/products/product1.jpeg';
-//import product2 from '../assets/products/product2.png';
-import product3 from '../assets/products/product3.jpeg';
-import product4 from '../assets/products/product4.jpeg';
+import { Link } from 'react-router-dom';
+import cover1 from '../assets/products/cover1.jpeg';
+import cover2 from '../assets/products/cover2.jpeg';
+import cover3 from '../assets/products/cover3.jpeg';
 
-type Product = {
+type Collection = {
+  id: string;
   name: string;
-  category: string;
   description: string;
-  image: string;
+  cover: string;
 };
 
-
-
-const productKeys: Product[] = [
-  //{ name: 'collection.product1.name', category: 'collection.product1.category', description: 'collection.product1.description', image: product1 },
-  //{ name: 'collection.product2.name', category: 'collection.product2.category', description: 'collection.product2.description', image: product2 },
-  { name: 'collection.product3.name', category: 'collection.product3.category', description: 'collection.product3.description', image: product3 },
-  { name: 'collection.product4.name', category: 'collection.product4.category', description: 'collection.product4.description', image: product4 },
-  //{ name: 'collection.product5.name', category: 'collection.product5.category', description: 'collection.product5.description', image: product5 },
-  //{ name: 'collection.product6.name', category: 'collection.product6.category', description: 'collection.product6.description', image: product6 },
+const collections: Collection[] = [
+  { id: 'col1', name: 'collection.col1.name', description: 'collection.col1.description', cover: cover1 },
+  { id: 'col2', name: 'collection.col2.name', description: 'collection.col2.description', cover: cover2 },
+  { id: 'col3', name: 'collection.col3.name', description: 'collection.col3.description', cover: cover3 },
 ];
 
 export default function Collection() {
@@ -40,7 +34,6 @@ export default function Collection() {
       />
 
       <div ref={ref} className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
-        {/* Section header */}
         <div className="reveal text-center mb-20">
           <span className="font-body text-xs tracking-[0.4em] uppercase text-gold-500/70 block mb-4">
             {t('collection.label')}
@@ -54,43 +47,37 @@ export default function Collection() {
           </p>
         </div>
 
-        {/* Product grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {productKeys.map((product, i) => (
-            <div
-              key={product.name}
-              className="reveal card-hover group"
+        <div className="grid md:grid-cols-3 gap-8">
+          {collections.map((col, i) => (
+            <Link
+              key={col.id}
+              to={`/collection/${col.id}`}
+              className="reveal card-hover group block"
               style={{ transitionDelay: `${i * 0.1}s` }}
             >
               <div className="relative bg-midnight-700/30 border border-gold-500/10 overflow-hidden">
-                {/* Image — ocupa o card todo, sem nome/categoria/descrição */}
                 <div className="relative aspect-[3/4] overflow-hidden">
                   <img
-                    src={product.image}
-                    alt={t(product.category)}
+                    src={col.cover}
+                    alt={t(col.name)}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     loading="lazy"
                   />
                   <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-midnight-900/85 via-midnight-900/20 to-transparent" />
-
-                  {/* CTA sobreposto na base da imagem */}
                   <div className="absolute inset-x-0 bottom-0 p-6">
-                    <a
-                      href="https://wa.me/1234567890?text=I'm%20interested%20in%20the%20Martinez%20M.13%20collection."
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 font-body text-xs tracking-[0.2em] uppercase text-gold-400 hover:text-gold-300 transition-colors duration-300"
-                    >
-                      {t('collection.inquire')}
-                      <ArrowRight size={14} className="transition-transform duration-300 group-hover:translate-x-1" />
-                    </a>
+                    <h3 className="font-display text-xl text-midnight-100 mb-1 group-hover:text-gold-300 transition-colors duration-300">
+                      {t(col.name)}
+                    </h3>
+                    <p className="font-body text-xs text-midnight-300">
+                      {t(col.description)}
+                    </p>
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
-           {/* Note */}
+
         <p className="text-center font-body text-xs text-midnight-400 mt-10 max-w-xl mx-auto leading-relaxed whitespace-pre-line">
           {t('collection.note')}
         </p>

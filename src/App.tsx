@@ -8,11 +8,14 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import CollectionDetail from './components/CollectionDetail';
 import ProductDetail from './components/ProductDetail';
+import ScrollToTop from './components/ScrollToTop';
 
 export default function App() {
   return (
     <div className="min-h-screen bg-midnight-900">
       <Navbar />
+      <ScrollToTop />
+
       <Routes>
         <Route path="/" element={
           <>

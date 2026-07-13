@@ -1,4 +1,4 @@
-import { useParams, Link } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from '../i18n/LanguageContext';
 import { ArrowLeft } from 'lucide-react';
 import product3 from '../assets/products/product3.jpeg';
@@ -29,35 +29,37 @@ const collectionsData: Record<string, CollectionData> = {
   col2: {
     name: 'collection.col2.name',
     description: 'collection.col2.description',
-    products: [
-      { id: 'product3', name: 'collection.col1.product1.name', description: 'collection.col1.product1.description', image: product3 },
-      { id: 'product4', name: 'collection.col1.product2.name', description: 'collection.col1.product2.description', image: product4 },
-    ],
+    products: [],
   },
   col3: {
     name: 'collection.col3.name',
     description: 'collection.col3.description',
-    products: [
-      { id: 'product3', name: 'collection.col1.product1.name', description: 'collection.col1.product1.description', image: product3 },
-      { id: 'product4', name: 'collection.col1.product2.name', description: 'collection.col1.product2.description', image: product4 },
-    ],
+    products: [],
   },
 };
 
 export default function CollectionDetail() {
   const { collectionId } = useParams();
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   const collection = collectionId ? collectionsData[collectionId] : null;
+
+  const handleBack = () => {
+    navigate('/');
+    setTimeout(() => {
+      document.getElementById('collection')?.scrollIntoView({ behavior: 'smooth' });
+    }, 100);
+  };
 
   if (!collection) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <p className="text-midnight-300 mb-4">Coleção não encontrada.</p>
-          <Link to="/" className="text-gold-400 hover:text-gold-300 font-body text-sm tracking-widest uppercase">
-            Voltar ao início
-          </Link>
+          <button onClick={handleBack} className="text-gold-400 hover:text-gold-300 font-body text-sm tracking-widest uppercase">
+            {t('collection.back')}
+          </button>
         </div>
       </div>
     );
@@ -75,13 +77,13 @@ export default function CollectionDetail() {
       />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
-        <Link
-          to="/#collection"
+        <button
+          onClick={handleBack}
           className="inline-flex items-center gap-2 text-midnight-400 hover:text-gold-400 transition-colors duration-300 font-body text-xs tracking-[0.2em] uppercase mb-16"
         >
           <ArrowLeft size={16} />
-          {t('collection.label')}
-        </Link>
+          {t('collection.back')}
+        </button>
 
         <div className="text-center mb-20">
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl gold-gradient-text mb-6">
@@ -95,10 +97,10 @@ export default function CollectionDetail() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {collection.products.map((product, i) => (
-            <Link
+            <button
               key={product.id}
-              to={`/collection/${collectionId}/${product.id}`}
-              className="card-hover group block"
+              onClick={() => navigate(`/collection/${collectionId}/${product.id}`)}
+              className="card-hover group block text-left"
               style={{ transitionDelay: `${i * 0.1}s` }}
             >
               <div className="relative bg-midnight-700/30 border border-gold-500/10 overflow-hidden">
@@ -117,7 +119,7 @@ export default function CollectionDetail() {
                   </div>
                 </div>
               </div>
-            </Link>
+            </button>
           ))}
         </div>
       </div>

@@ -32,6 +32,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'collection.description': 'Paredes modulares concebidas para elevar os espaços através da textura e do design. Cada projeto representa um compromisso com a qualidade, criado para durar e inspirar ao longo do tempo.',
     'collection.note': 'Cada peça é produzida exclusivamente por encomenda, garantindo um resultado único.\n Mesmo dentro da mesma coleção, não existem duas peças exatamente iguais.',
     'collection.inquire': 'Consultar',
+    'collection.back': 'Coleções',
 
     // Collections
     'collection.col1.name': 'Coleção 1',
@@ -111,6 +112,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'collection.description': 'Modular wall panels designed to transform interiors through texture, depth, and timeless design. Every project reflects our commitment to exceptional craftsmanship and enduring quality, creating spaces that inspire for years to come.',
     'collection.note': 'Each piece is produced exclusively to order, ensuring a unique result.\n Even within the same collection, no two pieces are ever exactly alike.',
     'collection.inquire': 'Inquire',
+    'collection.back': 'Collections',
 
     // Collections
     'collection.col1.name': 'Collection 1',

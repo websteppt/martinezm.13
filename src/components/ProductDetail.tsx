@@ -1,4 +1,4 @@
-import { useParams, Link } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from '../i18n/LanguageContext';
 import { ArrowLeft, MessageCircle } from 'lucide-react';
 import product3 from '../assets/products/product3.jpeg';
@@ -22,17 +22,22 @@ const allProducts: Record<string, Record<string, Product>> = {
 export default function ProductDetail() {
   const { collectionId, productId } = useParams();
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   const product = collectionId && productId ? allProducts[collectionId]?.[productId] : null;
+
+  const handleBack = () => {
+    navigate(`/collection/${collectionId}`);
+  };
 
   if (!product) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <p className="text-midnight-300 mb-4">Produto não encontrado.</p>
-          <Link to="/" className="text-gold-400 hover:text-gold-300 font-body text-sm tracking-widest uppercase">
-            Voltar ao início
-          </Link>
+          <button onClick={handleBack} className="text-gold-400 hover:text-gold-300 font-body text-sm tracking-widest uppercase">
+            {t('collection.back')}
+          </button>
         </div>
       </div>
     );
@@ -50,13 +55,13 @@ export default function ProductDetail() {
       />
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 lg:px-8">
-        <Link
-          to={`/collection/${collectionId}`}
+        <button
+          onClick={handleBack}
           className="inline-flex items-center gap-2 text-midnight-400 hover:text-gold-400 transition-colors duration-300 font-body text-xs tracking-[0.2em] uppercase mb-16"
         >
           <ArrowLeft size={16} />
-          {t('collection.label')}
-        </Link>
+          {t('collection.back')}
+        </button>
 
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           <div className="overflow-hidden">

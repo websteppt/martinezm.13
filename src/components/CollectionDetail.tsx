@@ -1,8 +1,13 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from '../i18n/LanguageContext';
 import { ArrowLeft } from 'lucide-react';
-import product3 from '../assets/products/product3.jpeg';
-import product4 from '../assets/products/product4.jpeg';
+import cover2 from '../assets/products/cover2.png';
+import cover3 from '../assets/products/cover3.png';
+import cover4 from '../assets/products/cover4.png';
+import quartzitedrift from '../assets/products/quartzitedrift.png';
+import stonemono from '../assets/products/stonemono.png';
+import stoneorig from '../assets/products/stoneorig.png';
+import strataveil from '../assets/products/strataveil.png';
 
 type Product = {
   id: string;
@@ -19,22 +24,17 @@ type CollectionData = {
 
 const collectionsData: Record<string, CollectionData> = {
   col1: {
-    name: 'collection.col1.name',
-    description: 'collection.col1.description',
+    name: 'M13 Signature',
+    description: 'Texturas que marcam. Superfícies que ficam.',
     products: [
-      { id: 'product3', name: 'collection.col1.product1.name', description: 'collection.col1.product1.description', image: product3 },
-      { id: 'product4', name: 'collection.col1.product2.name', description: 'collection.col1.product2.description', image: product4 },
+      { id: 'p1', name: 'collection.col1.product1.name', description: 'collection.col1.product1.description', image: cover2 },
+      { id: 'p2', name: 'collection.col1.product2.name', description: 'collection.col1.product2.description', image: cover3 },
+      { id: 'p3', name: 'collection.col1.product3.name', description: 'collection.col1.product3.description', image: cover4 },
+      { id: 'p4', name: 'collection.col1.product4.name', description: 'collection.col1.product4.description', image: quartzitedrift },
+      { id: 'p5', name: 'collection.col1.product5.name', description: 'collection.col1.product5.description', image: stonemono },
+      { id: 'p6', name: 'collection.col1.product6.name', description: 'collection.col1.product6.description', image: stoneorig },
+      { id: 'p7', name: 'collection.col1.product7.name', description: 'collection.col1.product7.description', image: strataveil },
     ],
-  },
-  col2: {
-    name: 'collection.col2.name',
-    description: 'collection.col2.description',
-    products: [],
-  },
-  col3: {
-    name: 'collection.col3.name',
-    description: 'collection.col3.description',
-    products: [],
   },
 };
 

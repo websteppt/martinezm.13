@@ -1,8 +1,13 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from '../i18n/LanguageContext';
 import { ArrowLeft, MessageCircle } from 'lucide-react';
-import product3 from '../assets/products/product3.jpeg';
-import product4 from '../assets/products/product4.jpeg';
+import cover2 from '../assets/products/cover2.png';
+import cover3 from '../assets/products/cover3.png';
+import cover4 from '../assets/products/cover4.png';
+import quartzitedrift from '../assets/products/quartzitedrift.png';
+import stonemono from '../assets/products/stonemono.png';
+import stoneorig from '../assets/products/stoneorig.png';
+import strataveil from '../assets/products/strataveil.png';
 
 type Product = {
   name: string;
@@ -12,11 +17,14 @@ type Product = {
 
 const allProducts: Record<string, Record<string, Product>> = {
   col1: {
-    product3: { name: 'collection.col1.product1.name', description: 'collection.col1.product1.description', image: product3 },
-    product4: { name: 'collection.col1.product2.name', description: 'collection.col1.product2.description', image: product4 },
+    p1: { name: 'collection.col1.product1.name', description: 'collection.col1.product1.description', image: cover2 },
+    p2: { name: 'collection.col1.product2.name', description: 'collection.col1.product2.description', image: cover3 },
+    p3: { name: 'collection.col1.product3.name', description: 'collection.col1.product3.description', image: cover4 },
+    p4: { name: 'collection.col1.product4.name', description: 'collection.col1.product4.description', image: quartzitedrift },
+    p5: { name: 'collection.col1.product5.name', description: 'collection.col1.product5.description', image: stonemono },
+    p6: { name: 'collection.col1.product6.name', description: 'collection.col1.product6.description', image: stoneorig },
+    p7: { name: 'collection.col1.product7.name', description: 'collection.col1.product7.description', image: strataveil },
   },
-  col2: {},
-  col3: {},
 };
 
 export default function ProductDetail() {

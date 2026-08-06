@@ -34,7 +34,15 @@ export default function Footer() {
               &copy; {new Date().getFullYear()} Martinez M.13. {t('footer.rights')}
             </p>
             <p className="font-body text-xs text-midnight-400 tracking-wider mt-1">
-              crafted by <span className="font-semibold">webstep</span>
+              crafted by{' '}
+              
+                <a href="https://webstep.pt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold hover:text-gold-400 transition-colors duration-300"
+              >
+                webstep
+              </a>
             </p>
           </div>
         </div>

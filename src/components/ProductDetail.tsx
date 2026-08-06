@@ -1,6 +1,7 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from '../i18n/LanguageContext';
 import { ArrowLeft, MessageCircle } from 'lucide-react';
+import painel1 from '../assets/products/painel1.jpeg';
 import cover2 from '../assets/products/cover2.png';
 import cover3 from '../assets/products/cover3.png';
 import cover4 from '../assets/products/cover4.png';
@@ -17,13 +18,16 @@ type Product = {
 
 const allProducts: Record<string, Record<string, Product>> = {
   col1: {
-    p1: { name: 'collection.col1.product1.name', description: 'collection.col1.product1.description', image: cover2 },
-    p2: { name: 'collection.col1.product2.name', description: 'collection.col1.product2.description', image: cover3 },
-    p3: { name: 'collection.col1.product3.name', description: 'collection.col1.product3.description', image: cover4 },
-    p4: { name: 'collection.col1.product4.name', description: 'collection.col1.product4.description', image: quartzitedrift },
-    p5: { name: 'collection.col1.product5.name', description: 'collection.col1.product5.description', image: stonemono },
-    p6: { name: 'collection.col1.product6.name', description: 'collection.col1.product6.description', image: stoneorig },
-    p7: { name: 'collection.col1.product7.name', description: 'collection.col1.product7.description', image: strataveil },
+    p1: { name: 'collection.col1.product1.name', description: 'collection.col1.product1.description', image: painel1 },
+  },
+  col2: {
+    p1: { name: 'collection.col2.product1.name', description: 'collection.col2.product1.description', image: cover2 },
+    p2: { name: 'collection.col2.product2.name', description: 'collection.col2.product2.description', image: cover3 },
+    p3: { name: 'collection.col2.product3.name', description: 'collection.col2.product3.description', image: cover4 },
+    p4: { name: 'collection.col2.product4.name', description: 'collection.col2.product4.description', image: quartzitedrift },
+    p5: { name: 'collection.col2.product5.name', description: 'collection.col2.product5.description', image: stonemono },
+    p6: { name: 'collection.col2.product6.name', description: 'collection.col2.product6.description', image: stoneorig },
+    p7: { name: 'collection.col2.product7.name', description: 'collection.col2.product7.description', image: strataveil },
   },
 };
 

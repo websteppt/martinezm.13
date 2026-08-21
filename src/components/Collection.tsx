@@ -1,7 +1,7 @@
 import { useReveal } from '../hooks/useReveal';
 import { useTranslation } from '../i18n/LanguageContext';
 import { Link } from 'react-router-dom';
-import painel1 from '../assets/products/painel1.jpeg';
+import painel_atlas from '../assets/products/painel_atlas.jpeg';
 import cover2 from '../assets/products/cover2.png';
 
 type Collection = {
@@ -12,7 +12,7 @@ type Collection = {
 };
 
 const collections: Collection[] = [
-  { id: 'col1', name: 'collection.col1.name', description: 'collection.col1.description', cover: painel1 },
+  { id: 'col1', name: 'collection.col1.name', description: 'collection.col1.description', cover: painel_atlas },
   { id: 'col2', name: 'collection.col2.name', description: 'collection.col2.description', cover: cover2 },
 ];
 
@@ -55,12 +55,12 @@ export default function Collection() {
             >
               <div className="relative bg-midnight-700/30 border border-gold-500/10 overflow-hidden">
                 <div className="relative aspect-[4/3] overflow-hidden">
-  <img
-    src={col.cover}
-    alt={t(col.name)}
-    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-    loading="lazy"
-  />
+                  <img
+                    src={col.cover}
+                    alt={t(col.name)}
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    loading="lazy"
+                  />
                   <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-midnight-900/85 via-midnight-900/20 to-transparent" />
                   <div className="absolute inset-x-0 bottom-0 p-8">
                     <h3 className="font-display text-2xl text-midnight-100 mb-1 group-hover:text-gold-300 transition-colors duration-300">

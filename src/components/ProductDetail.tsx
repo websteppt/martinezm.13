@@ -1,7 +1,12 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from '../i18n/LanguageContext';
 import { ArrowLeft, MessageCircle } from 'lucide-react';
-import painel1 from '../assets/products/painel1.jpeg';
+import painel_atlas from '../assets/products/painel_atlas.jpeg';
+import painel_ascension from '../assets/products/painel_ascension.jpeg';
+import painel_portucale from '../assets/products/painel_portucale.jpeg';
+import painel_redemption from '../assets/products/painel_redemption.jpeg';
+import painel_terra from '../assets/products/painel_terra.jpeg';
+import painel_vigilis from '../assets/products/painel_vigilis.jpeg';
 import cover2 from '../assets/products/cover2.png';
 import cover3 from '../assets/products/cover3.png';
 import cover4 from '../assets/products/cover4.png';
@@ -18,7 +23,12 @@ type Product = {
 
 const allProducts: Record<string, Record<string, Product>> = {
   col1: {
-    p1: { name: 'collection.col1.product1.name', description: 'collection.col1.product1.description', image: painel1 },
+    p1: { name: 'collection.col1.product1.name', description: 'collection.col1.product1.description', image: painel_atlas },
+    p2: { name: 'collection.col1.product2.name', description: 'collection.col1.product2.description', image: painel_ascension },
+    p3: { name: 'collection.col1.product3.name', description: 'collection.col1.product3.description', image: painel_portucale },
+    p4: { name: 'collection.col1.product4.name', description: 'collection.col1.product4.description', image: painel_redemption },
+    p5: { name: 'collection.col1.product5.name', description: 'collection.col1.product5.description', image: painel_terra },
+    p6: { name: 'collection.col1.product6.name', description: 'collection.col1.product6.description', image: painel_vigilis },
   },
   col2: {
     p1: { name: 'collection.col2.product1.name', description: 'collection.col2.product1.description', image: cover2 },

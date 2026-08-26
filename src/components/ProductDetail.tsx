@@ -65,6 +65,11 @@ export default function ProductDetail() {
     );
   }
 
+  const descriptionParagraphs = t(product.description)
+    .split('\n\n')
+    .map((paragraph) => paragraph.trim())
+    .filter((paragraph) => paragraph.length > 0);
+
   return (
     <section className="relative min-h-screen py-32 lg:py-40">
       <div className="absolute inset-0 bg-midnight-900" />
@@ -99,11 +104,14 @@ export default function ProductDetail() {
               {t(product.name)}
             </h1>
             <div className="luxury-divider w-16 mb-8" />
-            <p className="font-body text-midnight-300 leading-relaxed text-lg mb-12">
-              {t(product.description)}
-            </p>
-            
-              <a href="https://wa.me/1234567890?text=Inquiry"
+
+            <div className="font-body text-midnight-300 leading-relaxed text-lg mb-12 space-y-5">
+              {descriptionParagraphs.map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))}
+            </div>
+
+            <a href="https://wa.me/1234567890?text=Inquiry"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-10 py-4 gold-gradient-bg text-midnight-900 font-body text-sm tracking-[0.25em] uppercase font-semibold transition-all duration-500 hover:shadow-[0_0_30px_rgba(176,120,32,0.3)] self-start"

@@ -37,18 +37,77 @@ export const translations: Record<Language, Record<string, string>> = {
     // Collections
     'collection.col1.name': 'Coleção Painéis',
     'collection.col1.description': 'Painéis decorativos em relevo, onde cada traço é uma declaração.',
+
     'collection.col1.product1.name': 'Atlas',
-    'collection.col1.product1.description': 'Descrição do Atlas.',
+    'collection.col1.product1.description':
+      'O peso da grandeza.\n\n' +
+      'Inspirado na figura mitológica condenada a sustentar os céus, Atlas representa força, resistência e a capacidade de carregar grandes responsabilidades sem ceder perante o seu peso.\n\n' +
+      'Na composição, a figura emerge da própria matéria enquanto sustenta o mundo sobre os ombros. A tensão do corpo, a escala do globo e a textura rochosa que envolve toda a peça criam uma presença escultórica poderosa, onde cada elemento transmite esforço, determinação e domínio.\n\n' +
+      'Atlas é uma homenagem a quem escolhe carregar mais para alcançar mais.\n\n' +
+      'Uma peça concebida para espaços de liderança, decisão e ambição — escritórios executivos, salas de reunião e interiores onde a arte deve transmitir tanto quanto a própria arquitetura.\n\n' +
+      'O seu relevo tridimensional intensifica a interação entre matéria e luz, revelando progressivamente a força dos volumes e conferindo à peça uma presença monumental.\n\n' +
+      'Porque grandes conquistas exigem força para suportar o seu peso.\n\n' +
+      'Nota: A iluminação apresentada nas imagens é meramente ilustrativa e não está atualmente incluída nem disponível para fornecimento com esta peça.\n\n' +
+      'Cada modelo é apresentado numa dimensão standard, cuidadosamente definida para preservar as proporções e o impacto visual da peça. Pretende uma dimensão diferente? Todos os nossos modelos podem ser produzidos por medida. Entre em contacto connosco e indique as dimensões pretendidas para avaliarmos a produção de uma versão personalizada para o seu espaço.',
+
     'collection.col1.product2.name': 'Ascension',
-    'collection.col1.product2.description': 'Descrição do Ascension.',
+    'collection.col1.product2.description':
+      'Elevar-se para além dos limites.\n\n' +
+      'Ascension representa o instante em que a matéria dá lugar à elevação.\n\n' +
+      'Uma figura alada emerge da pedra, rompendo a superfície que a envolve e elevando-se acima dela. As asas abertas dominam a composição, criando uma imagem de força e liberdade onde luz, matéria e movimento parecem convergir num único momento.\n\n' +
+      'A peça simboliza superação, transformação e transcendência — a capacidade de abandonar aquilo que nos limita e procurar algo maior.\n\n' +
+      'O profundo trabalho de relevo confere às asas uma presença escultórica marcante, enquanto as fraturas da superfície reforçam a sensação de que a figura não foi colocada sobre a pedra: nasceu dela e rompeu-a para se libertar.\n\n' +
+      'Concebido para interiores onde a arte assume um significado para além da estética, Ascension transforma a parede num símbolo de evolução e conquista pessoal.\n\n' +
+      'Ascension. Não fomos feitos para permanecer onde começámos.\n\n' +
+      'Nota: A iluminação apresentada nas imagens é meramente ilustrativa e não está atualmente incluída nem disponível para fornecimento com esta peça.\n\n' +
+      'Cada modelo é apresentado numa dimensão standard, cuidadosamente definida para preservar as proporções e o impacto visual da peça. Pretende uma dimensão diferente? Todos os nossos modelos podem ser produzidos por medida. Entre em contacto connosco e indique as dimensões pretendidas para avaliarmos a produção de uma versão personalizada para o seu espaço.',
+
     'collection.col1.product3.name': 'Portucale',
-    'collection.col1.product3.description': 'Descrição do Portucale.',
+    'collection.col1.product3.description':
+      'A força de uma origem.\n\n' +
+      'Portucale é uma celebração de identidade, território e pertença.\n\n' +
+      'Da superfície marcada pela matéria emerge a silhueta de Portugal, esculpida em relevo como se sempre tivesse pertencido à própria pedra. Uma composição onde território e matéria se tornam um só, evocando a permanência de uma identidade construída através de séculos de história.\n\n' +
+      'O nome Portucale remete às origens do território que viria a tornar-se Portugal — uma referência ao passado transformada numa peça de expressão contemporânea.\n\n' +
+      'O relevo pronunciado e a textura mineral conferem profundidade à obra, enquanto a interação com a luz revela progressivamente os seus contornos e irregularidades.\n\n' +
+      'Concebido para residências, escritórios, empresas e espaços onde a identidade portuguesa merece assumir uma presença distinta.\n\n' +
+      'Portucale. A terra muda. A origem permanece.\n\n' +
+      'Nota: A iluminação apresentada nas imagens é meramente ilustrativa e não está atualmente incluída nem disponível para fornecimento com esta peça.\n\n' +
+      'Cada modelo é apresentado numa dimensão standard, cuidadosamente definida para preservar as proporções e o impacto visual da peça. Pretende uma dimensão diferente? Todos os nossos modelos podem ser produzidos por medida. Entre em contacto connosco e indique as dimensões pretendidas para avaliarmos a produção de uma versão personalizada para o seu espaço.',
+
     'collection.col1.product4.name': 'Redemption',
-    'collection.col1.product4.description': 'Descrição do Redemption.',
+    'collection.col1.product4.description':
+      'Da dor nasce a redenção.\n\n' +
+      'Redemption é uma representação de sacrifício, fé e esperança.\n\n' +
+      'Ao centro da composição, Cristo emerge da matéria coroado de espinhos, envolvido por um relevo que se expande à sua volta como uma manifestação de luz. A expressão serena perante o sofrimento transforma a peça num poderoso contraste entre dor e paz, fragilidade e força, sacrifício e eternidade.\n\n' +
+      'Cada elemento remete para uma das mensagens mais profundas da tradição cristã: a redenção através do sacrifício e a esperança que permanece mesmo nos momentos mais sombrios.\n\n' +
+      'Esculpida em profundo relevo, a composição ganha uma presença quase monumental. A incidência da luz percorre as diferentes camadas da peça, acentuando os volumes e revelando progressivamente os detalhes da figura e da matéria que a envolve.\n\n' +
+      'Redemption foi concebido para quem procura mais do que uma obra decorativa — para quem deseja que a arte presente no seu espaço seja também uma expressão de fé, memória e significado.\n\n' +
+      'Redemption. O sacrifício termina. A esperança permanece.\n\n' +
+      'Nota: A iluminação apresentada nas imagens é meramente ilustrativa e não está atualmente incluída nem disponível para fornecimento com esta peça.\n\n' +
+      'Cada modelo é apresentado numa dimensão standard, cuidadosamente definida para preservar as proporções e o impacto visual da peça. Pretende uma dimensão diferente? Todos os nossos modelos podem ser produzidos por medida. Entre em contacto connosco e indique as dimensões pretendidas para avaliarmos a produção de uma versão personalizada para o seu espaço.',
+
     'collection.col1.product5.name': 'Terra',
-    'collection.col1.product5.description': 'Descrição do Terra.',
+    'collection.col1.product5.description':
+      'O mundo como horizonte.\n\n' +
+      'Terra transforma a representação do mundo numa peça escultórica de presença monumental.\n\n' +
+      'Os continentes emergem de uma superfície de inspiração mineral, como se tivessem sido esculpidos diretamente na própria matéria. O relevo, as irregularidades e a profundidade da composição afastam-se da representação tradicional de um mapa para criar uma interpretação mais arquitetónica, intemporal e imponente do planeta.\n\n' +
+      'Concebido para espaços que refletem ambição, visão e conquista, Terra encontra o seu lugar natural em escritórios executivos, salas de reunião, espaços empresariais e interiores contemporâneos de carácter distinto.\n\n' +
+      'A incidência da luz sobre o relevo acentua os contornos e transforma a perceção da peça ao longo do dia, reforçando a sua dimensão escultórica.\n\n' +
+      'Terra é para quem não vê fronteiras. Vê possibilidades.\n\n' +
+      'Nota: A iluminação apresentada nas imagens é meramente ilustrativa e não está atualmente incluída nem disponível para fornecimento com esta peça.\n\n' +
+      'Cada modelo é apresentado numa dimensão standard, cuidadosamente definida para preservar as proporções e o impacto visual da peça. Pretende uma dimensão diferente? Todos os nossos modelos podem ser produzidos por medida. Entre em contacto connosco e indique as dimensões pretendidas para avaliarmos a produção de uma versão personalizada para o seu espaço.',
+
     'collection.col1.product6.name': 'Vigilis',
-    'collection.col1.product6.description': 'Descrição do Vigilis.',
+    'collection.col1.product6.description':
+      'Presença. Visão. Poder.\n\n' +
+      'Vigilis nasce da ideia de que o verdadeiro poder não precisa de se anunciar — basta estar presente.\n\n' +
+      'A composição cria uma sensação permanente de vigilância e domínio, transformando o espaço à sua volta e atraindo inevitavelmente o olhar de quem entra.\n\n' +
+      'Mais do que um elemento decorativo, Vigilis é uma peça de presença. Concebido para ambientes onde arquitetura e identidade se encontram, assume particular força em salas de reunião, escritórios executivos, espaços empresariais e interiores contemporâneos de carácter marcante.\n\n' +
+      'O relevo tridimensional reage à iluminação ao longo do dia, revelando diferentes profundidades, sombras e detalhes conforme o ponto de observação.\n\n' +
+      'Vigilis não ocupa simplesmente uma parede. Impõe-se sobre ela.\n\n' +
+      'Nota: A iluminação apresentada nas imagens é meramente ilustrativa e não está atualmente incluída nem disponível para fornecimento com esta peça.\n\n' +
+      'Cada modelo é apresentado numa dimensão standard, cuidadosamente definida para preservar as proporções e o impacto visual da peça. Pretende uma dimensão diferente? Todos os nossos modelos podem ser produzidos por medida. Entre em contacto connosco e indique as dimensões pretendidas para avaliarmos a produção de uma versão personalizada para o seu espaço.',
+
     'collection.col2.name': 'Coleção Paredes Modulares',
     'collection.col2.description': 'Paredes modulares para interiores únicos.',
     'collection.col2.product1.name': 'Produto 1',
@@ -137,18 +196,77 @@ export const translations: Record<Language, Record<string, string>> = {
     // Collections
     'collection.col1.name': 'Panels Collection',
     'collection.col1.description': 'Decorative relief panels — where every line is a statement.',
+
     'collection.col1.product1.name': 'Atlas',
-    'collection.col1.product1.description': 'Atlas description.',
+    'collection.col1.product1.description':
+      'The weight of greatness.\n\n' +
+      'Inspired by the mythological figure condemned to hold up the heavens, Atlas embodies strength, endurance, and the ability to carry great responsibility without bending under its weight.\n\n' +
+      'In the composition, the figure rises from the stone itself as it bears the world on its shoulders. The tension in the body, the scale of the globe, and the rugged texture surrounding the piece come together in a powerful sculptural presence, where every detail speaks of effort, determination, and command.\n\n' +
+      'Atlas is a tribute to those who choose to carry more in order to achieve more.\n\n' +
+      'A piece designed for spaces of leadership, decision-making, and ambition — executive offices, boardrooms, and interiors where art should speak as powerfully as the architecture itself.\n\n' +
+      'Its three-dimensional relief deepens the interplay between material and light, gradually revealing the strength of its forms and giving the piece a monumental presence.\n\n' +
+      'Because great achievements demand the strength to carry their weight.\n\n' +
+      "Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n" +
+      "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
+
     'collection.col1.product2.name': 'Ascension',
-    'collection.col1.product2.description': 'Ascension description.',
+    'collection.col1.product2.description':
+      'Rising beyond limits.\n\n' +
+      'Ascension captures the moment matter gives way to elevation.\n\n' +
+      'A winged figure emerges from the stone, breaking through the surface that surrounds it and rising above. Its open wings dominate the composition, creating an image of strength and freedom where light, material, and movement converge in a single instant.\n\n' +
+      'The piece symbolizes overcoming, transformation, and transcendence — the ability to let go of what holds us back and reach for something greater.\n\n' +
+      "The deep relief work gives the wings a striking sculptural presence, while the fractures across the surface reinforce the sense that the figure wasn't placed on the stone — it was born from it, breaking free.\n\n" +
+      'Designed for interiors where art carries meaning beyond aesthetics, Ascension turns the wall into a symbol of personal growth and achievement.\n\n' +
+      'Ascension. We were never meant to stay where we began.\n\n' +
+      "Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n" +
+      "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
+
     'collection.col1.product3.name': 'Portucale',
-    'collection.col1.product3.description': 'Portucale description.',
+    'collection.col1.product3.description':
+      'The strength of an origin.\n\n' +
+      'Portucale is a celebration of identity, land, and belonging.\n\n' +
+      'From a surface shaped by raw material, the silhouette of Portugal emerges in relief, as though it had always belonged to the stone itself. A composition where land and material become one, evoking an identity built and preserved through centuries of history.\n\n' +
+      'The name Portucale traces back to the origins of the territory that would become Portugal — a nod to the past, reimagined as a piece of contemporary expression.\n\n' +
+      'The pronounced relief and mineral texture give the work depth, while the play of light gradually reveals its contours and irregularities.\n\n' +
+      'Designed for homes, offices, businesses, and spaces where Portuguese identity deserves a distinctive presence.\n\n' +
+      'Portucale. The land changes. The origin remains.\n\n' +
+      "Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n" +
+      "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
+
     'collection.col1.product4.name': 'Redemption',
-    'collection.col1.product4.description': 'Redemption description.',
+    'collection.col1.product4.description':
+      'From suffering, redemption is born.\n\n' +
+      'Redemption is a portrayal of sacrifice, faith, and hope.\n\n' +
+      "At the center of the composition, Christ emerges from the stone crowned with thorns, surrounded by a relief that radiates outward like a burst of light. His serene expression amid suffering creates a powerful contrast between pain and peace, fragility and strength, sacrifice and eternity.\n\n" +
+      "Every detail speaks to one of Christianity's deepest messages: redemption through sacrifice, and the hope that endures even in the darkest moments.\n\n" +
+      'Carved in deep relief, the composition takes on an almost monumental presence. As light moves across its layers, it heightens the volumes and gradually reveals the details of the figure and the material surrounding it.\n\n' +
+      'Redemption was created for those seeking more than a decorative piece — for those who want the art in their space to also be an expression of faith, memory, and meaning.\n\n' +
+      'Redemption. The suffering ends. The hope remains.\n\n' +
+      "Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n" +
+      "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
+
     'collection.col1.product5.name': 'Terra',
-    'collection.col1.product5.description': 'Terra description.',
+    'collection.col1.product5.description':
+      'The world as horizon.\n\n' +
+      'Terra reimagines the map of the world as a sculptural piece of monumental presence.\n\n' +
+      'The continents rise from a stone-like surface, as though carved directly from the material itself. Its relief, irregularities, and depth move beyond the traditional map to create a more architectural, timeless, and commanding interpretation of the planet.\n\n' +
+      'Designed for spaces that reflect ambition, vision, and achievement, Terra feels at home in executive offices, boardrooms, corporate spaces, and contemporary interiors with a distinctive character.\n\n' +
+      "As light plays across the relief, it sharpens the contours and reshapes the piece's presence throughout the day, heightening its sculptural depth.\n\n" +
+      'Terra is for those who see no borders. Only possibilities.\n\n' +
+      "Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n" +
+      "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
+
     'collection.col1.product6.name': 'Vigilis',
-    'collection.col1.product6.description': 'Vigilis description.',
+    'collection.col1.product6.description':
+      "Presence. Vision. Power.\n\n" +
+      "Vigilis is built on a simple idea: true power doesn't need to announce itself — it only needs to be present.\n\n" +
+      'The composition creates a constant sense of watchfulness and command, reshaping the space around it and drawing the eye of everyone who enters.\n\n' +
+      'More than a decorative element, Vigilis is a piece defined by presence. Designed for environments where architecture and identity meet, it holds particular force in boardrooms, executive offices, corporate spaces, and contemporary interiors with a strong character.\n\n' +
+      "Its three-dimensional relief responds to light throughout the day, revealing different depths, shadows, and details depending on the angle from which it's viewed.\n\n" +
+      "Vigilis doesn't simply occupy a wall. It takes command of it.\n\n" +
+      "Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n" +
+      "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
+
     'collection.col2.name': 'Modular Walls Collection',
     'collection.col2.description': 'Modular wall panels for unique interiors.',
     'collection.col2.product1.name': 'Product 1',
@@ -168,7 +286,7 @@ export const translations: Record<Language, Record<string, string>> = {
     // Custom Orders
     'custom.label': 'Beyond The Collection',
     'custom.heading': 'Custom Orders',
-    'custom.description': 'Every space deserves its own solution. We develop fully personalized projects, tailored to each client\'s vision, dimensions, and identity.',
+    'custom.description': "Every space deserves its own solution. We develop fully personalized projects, tailored to each client's vision, dimensions, and identity.",
     'custom.feature1.title': 'Custom Design',
     'custom.feature1.description': 'Each project begins with direct collaboration, turning an initial idea into an exclusive piece, thought through to the smallest detail.',
     'custom.feature2.title': 'Material Selection',

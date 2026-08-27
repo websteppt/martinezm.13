@@ -7,6 +7,7 @@ import painel_portucale from '../assets/products/painel_portucale.jpeg';
 import painel_redemption from '../assets/products/painel_redemption.jpeg';
 import painel_terra from '../assets/products/painel_terra.jpeg';
 import painel_vigilis from '../assets/products/painel_vigilis.jpeg';
+import cover1 from '../assets/products/cover1.png';
 import cover2 from '../assets/products/cover2.png';
 import cover3 from '../assets/products/cover3.png';
 import cover4 from '../assets/products/cover4.png';
@@ -48,10 +49,10 @@ const collectionsData: Record<string, CollectionData> = {
       { id: 'p1', name: 'collection.col2.product1.name', description: 'collection.col2.product1.description', image: cover2 },
       { id: 'p2', name: 'collection.col2.product2.name', description: 'collection.col2.product2.description', image: cover3 },
       { id: 'p3', name: 'collection.col2.product3.name', description: 'collection.col2.product3.description', image: cover4 },
-      { id: 'p4', name: 'collection.col2.product4.name', description: 'collection.col2.product4.description', image: quartzitedrift },
-      { id: 'p5', name: 'collection.col2.product5.name', description: 'collection.col2.product5.description', image: stonemono },
-      { id: 'p6', name: 'collection.col2.product6.name', description: 'collection.col2.product6.description', image: stoneorig },
-      { id: 'p7', name: 'collection.col2.product7.name', description: 'collection.col2.product7.description', image: strataveil },
+      { id: 'p4', name: 'collection.col2.product4.name', description: 'collection.col2.product4.description', image: cover1 },
+      //{ id: 'p5', name: 'collection.col2.product5.name', description: 'collection.col2.product5.description', image: stonemono },
+      //{ id: 'p6', name: 'collection.col2.product6.name', description: 'collection.col2.product6.description', image: stoneorig },
+      //{ id: 'p7', name: 'collection.col2.product7.name', description: 'collection.col2.product7.description', image: strataveil },
     ],
   },
 };

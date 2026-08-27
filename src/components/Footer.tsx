@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="text-center md:text-left">
             <p className="font-display text-xl tracking-widest gold-gradient-text mb-2">
-              MARTINEZ M.13
+               M Signature
             </p>
             <p className="font-body text-xs tracking-[0.3em] uppercase text-midnight-400">
               {t('footer.tagline')}
@@ -31,7 +31,7 @@ export default function Footer() {
           */}
           <div className="flex flex-col items-end text-right">
             <p className="font-body text-xs text-midnight-500 tracking-wider">
-              &copy; {new Date().getFullYear()} Martinez M.13. {t('footer.rights')}
+              &copy; {new Date().getFullYear()} M Signature. {t('footer.rights')}
             </p>
             <p className="font-body text-xs text-midnight-400 tracking-wider mt-1">
               crafted by{' '}

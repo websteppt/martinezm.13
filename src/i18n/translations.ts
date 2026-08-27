@@ -11,8 +11,8 @@ export const translations: Record<Language, Record<string, string>> = {
 
     // Hero
     'hero.preTitle': 'Coleções de Referência',
-    'hero.brand': 'MARTINEZ',
-    'hero.subBrand': 'M.13',
+    'hero.brand': 'M',
+    'hero.subBrand': 'Signature',
     'hero.tagline': 'Elegância Premium',
     'hero.viewCollection': 'Ver Coleção',
     'hero.whatsapp': 'WhatsApp',
@@ -22,9 +22,9 @@ export const translations: Record<Language, Record<string, string>> = {
     'about.label': 'A Casa',
     'about.heading': 'O Nosso Legado',
     'about.story1': 'Nascida da paixão pelo desenho, da exploração da textura e da vontade de transformar superfícies em peças únicas',
-    'about.story2': 'A Martinez M.13 nasceu da paixão pelo desenho e da vontade de transformar ideias em peças físicas capazes de dar uma nova identidade aos espaços.',
+    'about.story2': 'A M Signature nasceu da paixão pelo desenho e da vontade de transformar ideias em peças físicas capazes de dar uma nova identidade aos espaços.',
     'about.story3': 'Cada criação percorre um processo cuidado, onde o desenho, o relevo, a textura e o acabamento se unem para criar peças verdadeiramente únicas. Mais do que elementos decorativos, são superfícies pensadas para marcar presença e contar uma história.',
-    'about.accent': 'Guiada pela ambição, pela irreverência e pela atenção ao detalhe, a Martinez M.13 procura desafiar o convencional e apresentar uma nova forma de interpretar o design modular para interiores.',
+    'about.accent': 'Guiada pela ambição, pela irreverência e pela atenção ao detalhe, a M Signature procura desafiar o convencional e apresentar uma nova forma de interpretar o design modular para interiores.',
 
     // Collection
     'collection.label': 'Peças Assinatura',
@@ -110,20 +110,20 @@ export const translations: Record<Language, Record<string, string>> = {
 
     'collection.col2.name': 'Coleção Paredes Modulares',
     'collection.col2.description': 'Paredes modulares para interiores únicos.',
-    'collection.col2.product1.name': 'Produto 1',
+    'collection.col2.product1.name': 'Quartzite Drift',
     'collection.col2.product1.description': 'Descrição do produto 1.',
-    'collection.col2.product2.name': 'Produto 2',
+    'collection.col2.product2.name': 'Stone Monolit',
     'collection.col2.product2.description': 'Descrição do produto 2.',
-    'collection.col2.product3.name': 'Produto 3',
+    'collection.col2.product3.name': 'Stone Origins',
     'collection.col2.product3.description': 'Descrição do produto 3.',
-    'collection.col2.product4.name': 'Produto 4',
+    'collection.col2.product4.name': 'Strata Veil',
     'collection.col2.product4.description': 'Descrição do produto 4.',
-    'collection.col2.product5.name': 'Produto 5',
-    'collection.col2.product5.description': 'Descrição do produto 5.',
-    'collection.col2.product6.name': 'Produto 6',
-    'collection.col2.product6.description': 'Descrição do produto 6.',
-    'collection.col2.product7.name': 'Produto 7',
-    'collection.col2.product7.description': 'Descrição do produto 7.',
+    //'collection.col2.product5.name': 'Produto 5',
+    //'collection.col2.product5.description': 'Descrição do produto 5.',
+    //'collection.col2.product6.name': 'Produto 6',
+    //'collection.col2.product6.description': 'Descrição do produto 6.',
+    //'collection.col2.product7.name': 'Produto 7',
+    //'collection.col2.product7.description': 'Descrição do produto 7.',
 
     // Custom Orders
     'custom.label': 'Além Da Coleção',
@@ -142,7 +142,7 @@ export const translations: Record<Language, Record<string, string>> = {
     // Contact
     'contact.label': 'Vamos criar algo único',
     'contact.heading': 'Contacto',
-    'contact.description': 'Se procura uma peça exclusiva, pretende desenvolver um projeto personalizado ou simplesmente conhecer melhor a Martinez M.13, teremos todo o gosto em falar consigo.',
+    'contact.description': 'Se procura uma peça exclusiva, pretende desenvolver um projeto personalizado ou simplesmente conhecer melhor a M Signature, teremos todo o gosto em falar consigo.',
     'contact.whatsapp.label': 'WhatsApp',
     'contact.whatsapp.value': 'Converse Connosco',
     'contact.whatsapp.description': 'Conversa direta — resposta imediata',
@@ -150,7 +150,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'contact.email.value': 'contact@martinezm13.com',
     'contact.email.description': 'Rápida resposta ao seu pedido',
     'contact.instagram.label': 'Instagram',
-    'contact.instagram.value': '@martinezm13',
+    'contact.instagram.value': '@msignature',
     'contact.instagram.description': 'Siga as nossas criações mais recentes',
     'contact.location': 'Mediante Agendamento — Mundial',
 
@@ -170,8 +170,8 @@ export const translations: Record<Language, Record<string, string>> = {
 
     // Hero
     'hero.preTitle': 'Established Collections',
-    'hero.brand': 'MARTINEZ',
-    'hero.subBrand': 'M.13',
+    'hero.brand': 'M',
+    'hero.subBrand': 'SIGNATURE',
     'hero.tagline': 'Premium Elegance',
     'hero.viewCollection': 'View Collection',
     'hero.whatsapp': 'WhatsApp',
@@ -181,9 +181,9 @@ export const translations: Record<Language, Record<string, string>> = {
     'about.label': 'The House',
     'about.heading': 'Our Legacy',
     'about.story1': 'Born from a passion for design, the exploration of texture, and the desire to transform surfaces into unique pieces.',
-    'about.story2': 'Martinez M.13 was born from a passion for design and the desire to turn ideas into physical pieces capable of giving spaces a new identity.',
+    'about.story2': 'M Signature was born from a passion for design and the desire to turn ideas into physical pieces capable of giving spaces a new identity.',
     'about.story3': 'Each creation follows a careful process, where drawing, relief, texture, and finish come together to create truly unique pieces. More than decorative elements, they are surfaces designed to make a statement and tell a story.',
-    'about.accent': 'Driven by ambition, irreverence, and attention to detail, Martinez M.13 seeks to challenge convention and present a new way of interpreting modular design for interiors.',
+    'about.accent': 'Driven by ambition, irreverence, and attention to detail, M Signature seeks to challenge convention and present a new way of interpreting modular design for interiors.',
 
     // Collection
     'collection.label': 'Signature Pieces',
@@ -277,12 +277,12 @@ export const translations: Record<Language, Record<string, string>> = {
     'collection.col2.product3.description': 'Product 3 description.',
     'collection.col2.product4.name': 'Product 4',
     'collection.col2.product4.description': 'Product 4 description.',
-    'collection.col2.product5.name': 'Product 5',
-    'collection.col2.product5.description': 'Product 5 description.',
-    'collection.col2.product6.name': 'Product 6',
-    'collection.col2.product6.description': 'Product 6 description.',
-    'collection.col2.product7.name': 'Product 7',
-    'collection.col2.product7.description': 'Product 7 description.',
+    //'collection.col2.product5.name': 'Product 5',
+    //'collection.col2.product5.description': 'Product 5 description.',
+    //'collection.col2.product6.name': 'Product 6',
+    //'collection.col2.product6.description': 'Product 6 description.',
+    //'collection.col2.product7.name': 'Product 7',
+    //'collection.col2.product7.description': 'Product 7 description.',
     // Custom Orders
     'custom.label': 'Beyond The Collection',
     'custom.heading': 'Custom Orders',
@@ -308,7 +308,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'contact.email.value': 'contact@martinezm13.com',
     'contact.email.description': 'For detailed inquiries',
     'contact.instagram.label': 'Instagram',
-    'contact.instagram.value': '@martinezm13',
+    'contact.instagram.value': '@msignature',
     'contact.instagram.description': 'Follow our latest creations',
     'contact.location': 'By Appointment — Worldwide',
 

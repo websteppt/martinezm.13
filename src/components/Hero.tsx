@@ -4,7 +4,7 @@ import bgTexture from '../assets/texture.jpg';
 
 export default function Hero() {
   const { t } = useTranslation();
-  const whatsappUrl = 'https://wa.me/1234567890?text=Hello%20Martinez%20M.13%2C%20I%20am%20interested%20in%20your%20collection.';
+  const whatsappUrl = 'https://wa.me/1234567890?text=Hello%20M.Signature%2C%20I%20am%20interested%20in%20your%20collection.';
 
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -26,10 +26,9 @@ export default function Hero() {
             <span className="w-8 h-px bg-gold-500" />
           </div>
         </div>
-        <h1 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl tracking-[0.05em] leading-none mb-6 animate-fade-in-up">
-          <span className="gold-gradient-text">{t('hero.brand')}</span>
-          <br />
-          <span className="text-midnight-100 font-light text-4xl sm:text-5xl md:text-6xl lg:text-7xl tracking-[0.15em]">{t('hero.subBrand')}</span>
+        <h1 className="font-display tracking-[0.05em] leading-tight mb-6 animate-fade-in-up">
+          <span className="gold-gradient-text text-5xl sm:text-7xl md:text-8xl lg:text-9xl block">{t('hero.brand')}</span>
+          <span className="text-midnight-100 font-light text-4xl sm:text-5xl md:text-6xl lg:text-7xl tracking-[0.15em] block -mt-4">{t('hero.subBrand')}</span>
         </h1>
         <p className="font-display text-xl sm:text-2xl md:text-3xl italic text-gold-300/80 mb-12 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>{t('hero.tagline')}</p>
         <div className="luxury-divider w-24 mx-auto mb-12 animate-fade-in" style={{ animationDelay: '0.5s' }} />

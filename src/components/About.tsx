@@ -46,7 +46,7 @@ export default function About() {
               <div className="relative bg-midnight-700/50 border border-gold-500/20 p-12 text-center">
                 <Diamond className="mx-auto mb-6 text-gold-400" size={40} strokeWidth={1} />
                 <p className="font-display text-3xl md:text-4xl gold-gradient-text mb-4">
-                  M.13
+                  MSignature
                 </p>
                 <div className="luxury-divider w-12 mx-auto mb-4" />
                 <p className="font-body text-sm tracking-[0.3em] uppercase text-gold-500/70">

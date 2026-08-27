@@ -50,7 +50,7 @@ export default function Navbar() {
             onClick={() => handleNavClick('hero')}
             className="font-display text-2xl tracking-widest gold-gradient-text"
           >
-            MARTINEZ M.13
+            M Signature
           </button>
 
           {/* Desktop nav */}

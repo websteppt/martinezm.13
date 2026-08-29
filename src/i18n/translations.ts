@@ -110,20 +110,52 @@ export const translations: Record<Language, Record<string, string>> = {
 
     'collection.col2.name': 'Coleção Paredes Modulares',
     'collection.col2.description': 'Paredes modulares para interiores únicos.',
+
     'collection.col2.product1.name': 'Quartzite Drift',
-    'collection.col2.product1.description': 'Descrição do produto 1.',
+    'collection.col2.product1.description':
+      'Geologia em movimento.\n\n' +
+      'Quartzite Drift interpreta a irregularidade das grandes formações de quartzito através de uma superfície modular marcada por fragmentos, sobreposições e diferentes níveis de profundidade.\n\n' +
+      'As formas percorrem a parede numa direção predominantemente vertical, criando um ritmo orgânico que quebra a rigidez da arquitetura e introduz no interior a sensação de uma formação rochosa monumental.\n\n' +
+      'Cada módulo integra-se na composição seguinte, permitindo que a textura se prolongue pela superfície e seja percecionada como uma única formação contínua.\n\n' +
+      'A incidência da luz revela gradualmente as diferentes camadas do relevo, fazendo com que a parede adquira novas expressões conforme o ambiente e o ponto de observação.\n\n' +
+      'Quartzite Drift. A natureza não desenha linhas perfeitas. \n\n' +
+      'Nota: A iluminação apresentada nas imagens é meramente ilustrativa e não está atualmente incluída nem disponível para fornecimento com esta peça.\n\n' +
+      'Cada modelo é apresentado numa dimensão standard, cuidadosamente definida para preservar as proporções e o impacto visual da peça. Pretende uma dimensão diferente? Todos os nossos modelos podem ser produzidos por medida. Entre em contacto connosco e indique as dimensões pretendidas para avaliarmos a produção de uma versão personalizada para o seu espaço.',
+
     'collection.col2.product2.name': 'Stone Monolit',
-    'collection.col2.product2.description': 'Descrição do produto 2.',
+    'collection.col2.product2.description':
+      'Presença em estado bruto.\n\n' +
+      'Stone Monolith é a expressão mais intensa e dramática da nossa interpretação da pedra.\n\n' +
+      'Inspirado em grandes formações rochosas e superfícies esculpidas pela erosão, apresenta um relevo profundo e irregular, composto por sucessivas camadas de matéria que conferem à parede uma presença quase monumental.\n\n' +
+      'O sistema modular permite expandir esta linguagem por grandes superfícies, transformando uma parede convencional numa formação escultórica integrada na própria arquitetura.\n\n' +
+      'A sua profundidade torna a iluminação parte essencial da experiência visual: a luz percorre os diferentes níveis da superfície, revelando volumes, cavidades e texturas que alteram constantemente a perceção da composição.\n\n' +
+      'Concebido para espaços onde a parede não deve desaparecer na arquitetura — deve tornar-se protagonista.\n\n' +
+      'Stone Monolith. Monumental por natureza.  \n\n' +
+      'Nota: A iluminação apresentada nas imagens é meramente ilustrativa e não está atualmente incluída nem disponível para fornecimento com esta peça.\n\n' +
+      'Cada modelo é apresentado numa dimensão standard, cuidadosamente definida para preservar as proporções e o impacto visual da peça. Pretende uma dimensão diferente? Todos os nossos modelos podem ser produzidos por medida. Entre em contacto connosco e indique as dimensões pretendidas para avaliarmos a produção de uma versão personalizada para o seu espaço.',
+
     'collection.col2.product3.name': 'Stone Origins',
-    'collection.col2.product3.description': 'Descrição do produto 3.',
+    'collection.col2.product3.description':
+      'Regresso à essência da matéria.\n\n' +
+      'Stone Origins nasce da forma mais elementar da pedra: grandes superfícies fraturadas, separadas por linhas profundas e irregulares que parecem resultar de movimentos naturais da própria matéria.\n\n' +
+      'A composição privilegia volumes amplos e uma linguagem visual mais serena, permitindo criar paredes monumentais sem sobrecarregar o espaço.\n\n' +
+      'O sistema modular transforma diferentes elementos numa superfície contínua, onde as transições e fraturas fazem parte de uma composição maior.\n\n' +
+      'Minimalista na forma, mas profundamente marcada pela textura e pelo relevo, Stone Origins estabelece uma ligação entre arquitetura contemporânea e a natureza no seu estado mais primordial.\n\n' +
+      'Stone Origins. Tudo começa na matéria.  \n\n' +
+      'Nota: A iluminação apresentada nas imagens é meramente ilustrativa e não está atualmente incluída nem disponível para fornecimento com esta peça.\n\n' +
+      'Cada modelo é apresentado numa dimensão standard, cuidadosamente definida para preservar as proporções e o impacto visual da peça. Pretende uma dimensão diferente? Todos os nossos modelos podem ser produzidos por medida. Entre em contacto connosco e indique as dimensões pretendidas para avaliarmos a produção de uma versão personalizada para o seu espaço.',
+
     'collection.col2.product4.name': 'Strata Veil',
-    'collection.col2.product4.description': 'Descrição do produto 4.',
-    //'collection.col2.product5.name': 'Produto 5',
-    //'collection.col2.product5.description': 'Descrição do produto 5.',
-    //'collection.col2.product6.name': 'Produto 6',
-    //'collection.col2.product6.description': 'Descrição do produto 6.',
-    //'collection.col2.product7.name': 'Produto 7',
-    //'collection.col2.product7.description': 'Descrição do produto 7.',
+    'collection.col2.product4.description':
+      'A pedra transformada em movimento.\n\n' +
+      'Strata Veil é um sistema de parede modular inspirado nas formações rochosas criadas pela sobreposição e transformação de diferentes estratos ao longo do tempo.\n\n' +
+      'A sua composição vertical combina volumes profundos, superfícies fragmentadas e linhas orgânicas que percorrem toda a parede, criando a sensação de grandes lâminas de pedra que emergem umas das outras.\n\n' +
+      'Mais do que revestir uma superfície, Strata Veil transforma a própria parede numa peça escultórica.\n\n' +
+      'A continuidade entre os diferentes módulos permite criar composições de grande escala, enquanto o relevo tridimensional reage à iluminação e acentua constantemente novas profundidades, formas e contrastes.\n\n' +
+      'Concebido para interiores contemporâneos onde a arquitetura procura aproximar-se da força e da imperfeição da natureza.\n\n' +
+      'Strata Veil. Camadas de matéria. Esculpidas pelo tempo.  \n\n' +
+      'Nota: A iluminação apresentada nas imagens é meramente ilustrativa e não está atualmente incluída nem disponível para fornecimento com esta peça.\n\n' +
+      'Cada modelo é apresentado numa dimensão standard, cuidadosamente definida para preservar as proporções e o impacto visual da peça. Pretende uma dimensão diferente? Todos os nossos modelos podem ser produzidos por medida. Entre em contacto connosco e indique as dimensões pretendidas para avaliarmos a produção de uma versão personalizada para o seu espaço.',
 
     // Custom Orders
     'custom.label': 'Além Da Coleção',
@@ -147,7 +179,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'contact.whatsapp.value': 'Converse Connosco',
     'contact.whatsapp.description': 'Conversa direta — resposta imediata',
     'contact.email.label': 'Email',
-    'contact.email.value': 'contact@martinezm13.com',
+    'contact.email.value': 'contact@msignature.pt',
     'contact.email.description': 'Rápida resposta ao seu pedido',
     'contact.instagram.label': 'Instagram',
     'contact.instagram.value': '@msignature',
@@ -206,7 +238,7 @@ export const translations: Record<Language, Record<string, string>> = {
       'A piece designed for spaces of leadership, decision-making, and ambition — executive offices, boardrooms, and interiors where art should speak as powerfully as the architecture itself.\n\n' +
       'Its three-dimensional relief deepens the interplay between material and light, gradually revealing the strength of its forms and giving the piece a monumental presence.\n\n' +
       'Because great achievements demand the strength to carry their weight.\n\n' +
-      "Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n" +
+      'Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n' +
       "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
 
     'collection.col1.product2.name': 'Ascension',
@@ -218,7 +250,7 @@ export const translations: Record<Language, Record<string, string>> = {
       "The deep relief work gives the wings a striking sculptural presence, while the fractures across the surface reinforce the sense that the figure wasn't placed on the stone — it was born from it, breaking free.\n\n" +
       'Designed for interiors where art carries meaning beyond aesthetics, Ascension turns the wall into a symbol of personal growth and achievement.\n\n' +
       'Ascension. We were never meant to stay where we began.\n\n' +
-      "Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n" +
+      'Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n' +
       "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
 
     'collection.col1.product3.name': 'Portucale',
@@ -230,7 +262,7 @@ export const translations: Record<Language, Record<string, string>> = {
       'The pronounced relief and mineral texture give the work depth, while the play of light gradually reveals its contours and irregularities.\n\n' +
       'Designed for homes, offices, businesses, and spaces where Portuguese identity deserves a distinctive presence.\n\n' +
       'Portucale. The land changes. The origin remains.\n\n' +
-      "Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n" +
+      'Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n' +
       "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
 
     'collection.col1.product4.name': 'Redemption',
@@ -242,7 +274,7 @@ export const translations: Record<Language, Record<string, string>> = {
       'Carved in deep relief, the composition takes on an almost monumental presence. As light moves across its layers, it heightens the volumes and gradually reveals the details of the figure and the material surrounding it.\n\n' +
       'Redemption was created for those seeking more than a decorative piece — for those who want the art in their space to also be an expression of faith, memory, and meaning.\n\n' +
       'Redemption. The suffering ends. The hope remains.\n\n' +
-      "Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n" +
+      'Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n' +
       "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
 
     'collection.col1.product5.name': 'Terra',
@@ -253,7 +285,7 @@ export const translations: Record<Language, Record<string, string>> = {
       'Designed for spaces that reflect ambition, vision, and achievement, Terra feels at home in executive offices, boardrooms, corporate spaces, and contemporary interiors with a distinctive character.\n\n' +
       "As light plays across the relief, it sharpens the contours and reshapes the piece's presence throughout the day, heightening its sculptural depth.\n\n" +
       'Terra is for those who see no borders. Only possibilities.\n\n' +
-      "Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n" +
+      'Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n' +
       "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
 
     'collection.col1.product6.name': 'Vigilis',
@@ -264,25 +296,58 @@ export const translations: Record<Language, Record<string, string>> = {
       'More than a decorative element, Vigilis is a piece defined by presence. Designed for environments where architecture and identity meet, it holds particular force in boardrooms, executive offices, corporate spaces, and contemporary interiors with a strong character.\n\n' +
       "Its three-dimensional relief responds to light throughout the day, revealing different depths, shadows, and details depending on the angle from which it's viewed.\n\n" +
       "Vigilis doesn't simply occupy a wall. It takes command of it.\n\n" +
-      "Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n" +
+      'Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n' +
       "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
 
     'collection.col2.name': 'Modular Walls Collection',
     'collection.col2.description': 'Modular wall panels for unique interiors.',
-    'collection.col2.product1.name': 'Product 1',
-    'collection.col2.product1.description': 'Product 1 description.',
-    'collection.col2.product2.name': 'Product 2',
-    'collection.col2.product2.description': 'Product 2 description.',
-    'collection.col2.product3.name': 'Product 3',
-    'collection.col2.product3.description': 'Product 3 description.',
-    'collection.col2.product4.name': 'Product 4',
-    'collection.col2.product4.description': 'Product 4 description.',
-    //'collection.col2.product5.name': 'Product 5',
-    //'collection.col2.product5.description': 'Product 5 description.',
-    //'collection.col2.product6.name': 'Product 6',
-    //'collection.col2.product6.description': 'Product 6 description.',
-    //'collection.col2.product7.name': 'Product 7',
-    //'collection.col2.product7.description': 'Product 7 description.',
+
+    'collection.col2.product1.name': 'Quartzite Drift',
+    'collection.col2.product1.description':
+      'Geology in motion.\n\n' +
+      'Quartzite Drift interprets the irregularity of large quartzite formations through a modular surface marked by fragments, overlaps, and varying levels of depth.\n\n' +
+      'Its forms travel the wall in a predominantly vertical direction, creating an organic rhythm that breaks the rigidity of architecture and introduces the feeling of a monumental rock formation into the interior.\n\n' +
+      'Each module integrates seamlessly into the next, allowing the texture to extend across the surface and be perceived as a single continuous formation.\n\n' +
+      'The play of light gradually reveals the different layers of the relief, giving the wall new expressions as the environment and point of observation change.\n\n' +
+      'Quartzite Drift. Nature never draws straight lines. \n\n' +
+      'Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n' +
+      "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
+
+    'collection.col2.product2.name': 'Stone Monolith',
+    'collection.col2.product2.description':
+      'Presence in its rawest form.\n\n' +
+      'Stone Monolith is the most intense and dramatic expression of our interpretation of stone.\n\n' +
+      'Inspired by large rock formations and surfaces carved by erosion, it features a deep, irregular relief composed of successive layers of material that give the wall an almost monumental presence.\n\n' +
+      'The modular system allows this language to expand across large surfaces, transforming a conventional wall into a sculptural formation integrated into the architecture itself.\n\n' +
+      'Its depth makes lighting an essential part of the visual experience: light travels across the different levels of the surface, revealing volumes, cavities, and textures that constantly shift the perception of the composition.\n\n' +
+      "Designed for spaces where the wall shouldn't fade into the architecture — it should become the protagonist.\n\n" +
+      'Stone Monolith. Monumental by nature. \n\n' +
+      'Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n' +
+      "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
+
+    'collection.col2.product3.name': 'Stone Origins',
+    'collection.col2.product3.description':
+      'A return to the essence of material.\n\n' +
+      'Stone Origins begins with the most elemental form of stone: large fractured surfaces, separated by deep, irregular lines that seem to result from the natural movement of the material itself.\n\n' +
+      'The composition favors broad volumes and a more serene visual language, allowing monumental walls to be created without overwhelming the space.\n\n' +
+      'The modular system brings together different elements into a continuous surface, where transitions and fractures are part of a larger composition.\n\n' +
+      'Minimal in form, yet deeply defined by texture and relief, Stone Origins establishes a connection between contemporary architecture and nature in its most primordial state.\n\n' +
+      'Stone Origins. Everything begins in the material. \n\n' +
+      'Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n' +
+      "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
+
+    'collection.col2.product4.name': 'Strata Veil',
+    'collection.col2.product4.description':
+      'Stone transformed into movement.\n\n' +
+      'Strata Veil is a modular wall system inspired by the rock formations created through the layering and transformation of different strata over time.\n\n' +
+      'Its vertical composition combines deep volumes, fragmented surfaces, and organic lines that travel the full length of the wall, creating the sensation of great slabs of stone emerging from one another.\n\n' +
+      'More than a surface covering, Strata Veil transforms the wall itself into a sculptural piece.\n\n' +
+      'The continuity between modules allows for large-scale compositions, while the three-dimensional relief responds to lighting and constantly reveals new depths, forms, and contrasts.\n\n' +
+      'Designed for contemporary interiors where architecture seeks to draw closer to the strength and imperfection of nature.\n\n' +
+      'Strata Veil. Layers of material. Sculpted by time.\n\n' +
+      'Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n' +
+      "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
+
     // Custom Orders
     'custom.label': 'Beyond The Collection',
     'custom.heading': 'Custom Orders',
@@ -305,7 +370,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'contact.whatsapp.value': 'Chat with us',
     'contact.whatsapp.description': 'Direct conversation — instant response',
     'contact.email.label': 'Email',
-    'contact.email.value': 'contact@martinezm13.com',
+    'contact.email.value': 'contact@msignature.pt',
     'contact.email.description': 'For detailed inquiries',
     'contact.instagram.label': 'Instagram',
     'contact.instagram.value': '@msignature',

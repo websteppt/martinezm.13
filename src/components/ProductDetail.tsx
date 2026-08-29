@@ -1,4 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { useTranslation } from '../i18n/LanguageContext';
 import { ArrowLeft, MessageCircle } from 'lucide-react';
 import painel_atlas from '../assets/products/painel_atlas.jpeg';
@@ -20,6 +21,7 @@ type Product = {
   name: string;
   description: string;
   image: string;
+  formatImage?: string;
 };
 
 const allProducts: Record<string, Record<string, Product>> = {
@@ -32,13 +34,10 @@ const allProducts: Record<string, Record<string, Product>> = {
     p6: { name: 'collection.col1.product6.name', description: 'collection.col1.product6.description', image: painel_vigilis },
   },
   col2: {
-    p1: { name: 'collection.col2.product1.name', description: 'collection.col2.product1.description', image: cover2 },
-    p2: { name: 'collection.col2.product2.name', description: 'collection.col2.product2.description', image: cover3 },
-    p3: { name: 'collection.col2.product3.name', description: 'collection.col2.product3.description', image: cover4 },
-    p4: { name: 'collection.col2.product4.name', description: 'collection.col2.product4.description', image: cover1 },
-    //p5: { name: 'collection.col2.product5.name', description: 'collection.col2.product5.description', image: stonemono },
-    //p6: { name: 'collection.col2.product6.name', description: 'collection.col2.product6.description', image: stoneorig },
-    //p7: { name: 'collection.col2.product7.name', description: 'collection.col2.product7.description', image: strataveil },
+    p1: { name: 'collection.col2.product1.name', description: 'collection.col2.product1.description', image: cover2, formatImage: quartzitedrift },
+    p2: { name: 'collection.col2.product2.name', description: 'collection.col2.product2.description', image: cover3, formatImage: stonemono },
+    p3: { name: 'collection.col2.product3.name', description: 'collection.col2.product3.description', image: cover4, formatImage: stoneorig },
+    p4: { name: 'collection.col2.product4.name', description: 'collection.col2.product4.description', image: cover1, formatImage: strataveil },
   },
 };
 
@@ -66,63 +65,111 @@ export default function ProductDetail() {
     );
   }
 
+  const productName = t(product.name);
   const descriptionParagraphs = t(product.description)
     .split('\n\n')
     .map((paragraph) => paragraph.trim())
     .filter((paragraph) => paragraph.length > 0);
 
+  const plainDescription = descriptionParagraphs.join(' ');
+  const pageTitle = `${productName} | M Signature`;
+  const canonicalUrl = `https://msignature.pt/collection/${collectionId}/${productId}`;
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: productName,
+    description: plainDescription.slice(0, 500),
+    image: product.image,
+    brand: {
+      '@type': 'Brand',
+      name: 'M Signature',
+    },
+    url: canonicalUrl,
+  };
+
   return (
-    <section className="relative min-h-screen py-32 lg:py-40">
-      <div className="absolute inset-0 bg-midnight-900" />
-      <div
-        className="absolute inset-0 opacity-5"
-        style={{
-          backgroundImage:
-            'radial-gradient(ellipse at 50% 0%, rgba(201,162,39,0.3) 0%, transparent 60%)',
-        }}
-      />
+    <>
+      <Helmet>
+        <title>{pageTitle}</title>
+        <meta name="description" content={plainDescription.slice(0, 155)} />
+        <link rel="canonical" href={canonicalUrl} />
 
-      <div className="relative z-10 max-w-5xl mx-auto px-6 lg:px-8">
-        <button
-          onClick={handleBack}
-          className="inline-flex items-center gap-2 text-midnight-400 hover:text-gold-400 transition-colors duration-300 font-body text-xs tracking-[0.2em] uppercase mb-16"
-        >
-          <ArrowLeft size={16} />
-          {t('collection.back')}
-        </button>
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={plainDescription.slice(0, 155)} />
+        <meta property="og:type" content="product" />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:image" content={product.image} />
 
-        <div className="grid lg:grid-cols-2 gap-16 items-start">
-          <div className="overflow-hidden">
-            <img
-              src={product.image}
-              alt={t(product.name)}
-              className="w-full h-auto object-contain"
-            />
-          </div>
+        <script type="application/ld+json">
+          {JSON.stringify(jsonLd)}
+        </script>
+      </Helmet>
 
-          <div className="flex flex-col justify-center">
-            <h1 className="font-display text-4xl md:text-5xl gold-gradient-text mb-6">
-              {t(product.name)}
-            </h1>
-            <div className="luxury-divider w-16 mb-8" />
+      <section className="relative min-h-screen py-32 lg:py-40">
+        <div className="absolute inset-0 bg-midnight-900" />
+        <div
+          className="absolute inset-0 opacity-5"
+          style={{
+            backgroundImage:
+              'radial-gradient(ellipse at 50% 0%, rgba(201,162,39,0.3) 0%, transparent 60%)',
+          }}
+        />
 
-            <div className="font-body text-midnight-300 leading-relaxed text-lg mb-12 space-y-5">
-              {descriptionParagraphs.map((paragraph, index) => (
-                <p key={index}>{paragraph}</p>
-              ))}
+        <div className="relative z-10 max-w-5xl mx-auto px-6 lg:px-8">
+          <button
+            onClick={handleBack}
+            className="inline-flex items-center gap-2 text-midnight-400 hover:text-gold-400 transition-colors duration-300 font-body text-xs tracking-[0.2em] uppercase mb-16"
+          >
+            <ArrowLeft size={16} />
+            {t('collection.back')}
+          </button>
+
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
+            <div>
+              <div className="overflow-hidden">
+                <img
+                  src={product.image}
+                  alt={productName}
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+
+              {product.formatImage && (
+                <div className="overflow-hidden mt-6">
+                  <img
+                    src={product.formatImage}
+                    alt={`${productName} - formato`}
+                    className="w-full h-auto object-contain"
+                  />
+                </div>
+              )}
             </div>
 
-            <a href="https://wa.me/1234567890?text=Inquiry"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 px-10 py-4 gold-gradient-bg text-midnight-900 font-body text-sm tracking-[0.25em] uppercase font-semibold transition-all duration-500 hover:shadow-[0_0_30px_rgba(176,120,32,0.3)] self-start"
-            >
-              <MessageCircle size={18} />
-              {t('custom.cta.button')}
-            </a>
+            <div className="flex flex-col justify-center">
+              <h1 className="font-display text-4xl md:text-5xl gold-gradient-text mb-6">
+                {productName}
+              </h1>
+              <div className="luxury-divider w-16 mb-8" />
+
+              <div className="font-body text-midnight-300 leading-relaxed text-lg mb-12 space-y-5">
+                {descriptionParagraphs.map((paragraph, index) => (
+                  <p key={index}>{paragraph}</p>
+                ))}
+              </div>
+
+              <a href="https://wa.me/1234567890?text=Inquiry"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 px-10 py-4 gold-gradient-bg text-midnight-900 font-body text-sm tracking-[0.25em] uppercase font-semibold transition-all duration-500 hover:shadow-[0_0_30px_rgba(176,120,32,0.3)] self-start"
+              >
+                <MessageCircle size={18} />
+                {t('custom.cta.button')}
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }

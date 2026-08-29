@@ -16,7 +16,7 @@ const contactMethods = [
     labelKey: 'contact.email.label',
     valueKey: 'contact.email.value',
     descKey: 'contact.email.description',
-    //href: 'mailto:contact@martinezm13.com',
+    //href: 'mailto:contact@msignature.pt',
     external: false,
   },
   {

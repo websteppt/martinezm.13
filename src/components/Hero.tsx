@@ -5,7 +5,7 @@ import bgTexture from '../assets/texture.jpg';
 
 export default function Hero() {
   const { t } = useTranslation();
-  const whatsappUrl = 'https://wa.me/1234567890?text=Hello%20M.Signature%2C%20I%20am%20interested%20in%20your%20collection.';
+  const whatsappUrl = `https://wa.me/351915541985?text=${encodeURIComponent(t('whatsapp.hero'))}`;
 
   return (
     <>

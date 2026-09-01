@@ -2,36 +2,38 @@ import { useReveal } from '../hooks/useReveal';
 import { useTranslation } from '../i18n/LanguageContext';
 import { MessageCircle, Mail, Instagram, MapPin } from 'lucide-react';
 
-const contactMethods = [
-  {
-    icon: MessageCircle,
-    labelKey: 'contact.whatsapp.label',
-    valueKey: 'contact.whatsapp.value',
-    descKey: 'contact.whatsapp.description',
-    //href: 'https://wa.me/1234567890?text=Hello%20Martinez%20M.13',
-    external: true,
-  },
-  {
-    icon: Mail,
-    labelKey: 'contact.email.label',
-    valueKey: 'contact.email.value',
-    descKey: 'contact.email.description',
-    //href: 'mailto:contact@msignature.pt',
-    external: false,
-  },
-  {
-    icon: Instagram,
-    labelKey: 'contact.instagram.label',
-    valueKey: 'contact.instagram.value',
-    descKey: 'contact.instagram.description',
-    //href: 'https://instagram.com/martinezm13',
-    external: true,
-  },
-];
-
 export default function Contact() {
   const { t } = useTranslation();
   const ref = useReveal();
+
+  const whatsappUrl = `https://wa.me/351915541985?text=${encodeURIComponent(t('whatsapp.contact'))}`;
+
+  const contactMethods = [
+    {
+      icon: MessageCircle,
+      labelKey: 'contact.whatsapp.label',
+      valueKey: 'contact.whatsapp.value',
+      descKey: 'contact.whatsapp.description',
+      href: whatsappUrl,
+      external: true,
+    },
+    {
+      icon: Mail,
+      labelKey: 'contact.email.label',
+      valueKey: 'contact.email.value',
+      descKey: 'contact.email.description',
+      href: 'mailto:geralmsignature@gmail.com',
+      external: false,
+    },
+    // {
+    //   icon: Instagram,
+    //   labelKey: 'contact.instagram.label',
+    //   valueKey: 'contact.instagram.value',
+    //   descKey: 'contact.instagram.description',
+    //   href: 'https://instagram.com/msignature',
+    //   external: true,
+    // },
+  ];
 
   return (
     <section id="contact" className="relative py-32 lg:py-40">
@@ -53,14 +55,14 @@ export default function Contact() {
         </div>
 
         {/* Contact cards */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        <div className="flex flex-col sm:flex-row justify-center gap-8 mb-16">
           {contactMethods.map((method, i) => (
             <a
               key={method.labelKey}
               href={method.href}
               target={method.external ? '_blank' : undefined}
               rel={method.external ? 'noopener noreferrer' : undefined}
-              className="reveal group p-8 bg-midnight-700/20 border border-gold-500/10 text-center hover:border-gold-500/30 transition-all duration-500 hover:-translate-y-1"
+              className="reveal group p-8 bg-midnight-700/20 border border-gold-500/10 text-center hover:border-gold-500/30 transition-all duration-500 hover:-translate-y-1 w-full sm:w-64"
               style={{ transitionDelay: `${i * 0.1}s` }}
             >
               <method.icon

@@ -16,12 +16,12 @@ export default function Footer() {
               {t('footer.tagline')}
             </p>
           </div>
-          {/*}
+          {/*
           <div className="flex items-center gap-8">
-            <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="text-midnight-400 hover:text-gold-400 transition-colors duration-300" aria-label="WhatsApp">
+            <a href="https://wa.me/+351915541985" target="_blank" rel="noopener noreferrer" className="text-midnight-400 hover:text-gold-400 transition-colors duration-300" aria-label="WhatsApp">
               <MessageCircle size={20} strokeWidth={1.5} />
             </a>
-            <a href="mailto:contact@msignature.pt" className="text-midnight-400 hover:text-gold-400 transition-colors duration-300" aria-label="Email">
+            <a href="mailto:geralmsignature@gmail.com" className="text-midnight-400 hover:text-gold-400 transition-colors duration-300" aria-label="Email">
               <Mail size={20} strokeWidth={1.5} />
             </a>
             <a href="https://instagram.com/martinezm13" target="_blank" rel="noopener noreferrer" className="text-midnight-400 hover:text-gold-400 transition-colors duration-300" aria-label="Instagram">

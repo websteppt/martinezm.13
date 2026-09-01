@@ -18,6 +18,12 @@ export const translations: Record<Language, Record<string, string>> = {
     'hero.whatsapp': 'WhatsApp',
     'hero.scroll': 'Rolar',
 
+    // WhatsApp messages
+    'whatsapp.hero': 'Olá M Signature, tenho interesse na vossa coleção.',
+    'whatsapp.custom': 'Olá! Gostaria de ter mais informações sobre os serviços de personalização da M Signature.',
+    'whatsapp.product': 'Olá, tenho interesse em saber mais sobre',
+    'whatsapp.contact': 'Olá M Signature, gostaria de saber mais.',
+
     // About
     'about.label': 'A Casa',
     'about.heading': 'O Nosso Legado',
@@ -179,7 +185,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'contact.whatsapp.value': 'Converse Connosco',
     'contact.whatsapp.description': 'Conversa direta — resposta imediata',
     'contact.email.label': 'Email',
-    'contact.email.value': 'contact@msignature.pt',
+    'contact.email.value': 'geralmsignature@gmail.com',
     'contact.email.description': 'Rápida resposta ao seu pedido',
     'contact.instagram.label': 'Instagram',
     'contact.instagram.value': '@msignature',
@@ -208,6 +214,12 @@ export const translations: Record<Language, Record<string, string>> = {
     'hero.viewCollection': 'View Collection',
     'hero.whatsapp': 'WhatsApp',
     'hero.scroll': 'Scroll',
+
+    // WhatsApp messages
+    'whatsapp.hero': 'Hello M Signature, I am interested in your collection.',
+    'whatsapp.custom': "Hello! I would like more information about M Signature's custom services.",
+    'whatsapp.product': 'Hello, I am interested in learning more about',
+    'whatsapp.contact': 'Hello M Signature, I would like to know more.',
 
     // About
     'about.label': 'The House',
@@ -370,7 +382,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'contact.whatsapp.value': 'Chat with us',
     'contact.whatsapp.description': 'Direct conversation — instant response',
     'contact.email.label': 'Email',
-    'contact.email.value': 'contact@msignature.pt',
+    'contact.email.value': 'geralmsignature@gmail.com',
     'contact.email.description': 'For detailed inquiries',
     'contact.instagram.label': 'Instagram',
     'contact.instagram.value': '@msignature',

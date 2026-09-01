@@ -74,6 +74,7 @@ export default function ProductDetail() {
   const plainDescription = descriptionParagraphs.join(' ');
   const pageTitle = `${productName} | M Signature`;
   const canonicalUrl = `https://msignature.pt/collection/${collectionId}/${productId}`;
+  const whatsappUrl = `https://wa.me/351915541985?text=${encodeURIComponent(`${t('whatsapp.product')} ${productName}`)}`;
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -158,7 +159,7 @@ export default function ProductDetail() {
                 ))}
               </div>
 
-              <a href="https://wa.me/1234567890?text=Inquiry"
+              <a href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 px-10 py-4 gold-gradient-bg text-midnight-900 font-body text-sm tracking-[0.25em] uppercase font-semibold transition-all duration-500 hover:shadow-[0_0_30px_rgba(176,120,32,0.3)] self-start"

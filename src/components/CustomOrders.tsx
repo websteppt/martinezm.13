@@ -11,6 +11,7 @@ const featureKeys = [
 export default function CustomOrders() {
   const { t } = useTranslation();
   const ref = useReveal();
+  const whatsappUrl = `https://wa.me/351915541985?text=${encodeURIComponent(t('whatsapp.custom'))}`;
 
   return (
     <section id="custom" className="relative py-32 lg:py-40">
@@ -62,8 +63,8 @@ export default function CustomOrders() {
             <p className="font-body text-sm text-midnight-300 mb-8">
               {t('custom.cta.description')}
             </p>
-            <a
-              href="https://wa.me/1234567890?text=Hello%20Martinez%20M.13%2C%20I%20am%20interested%20in%20a%20custom%20order."
+            
+              <a href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 px-10 py-4 gold-gradient-bg text-midnight-900 font-body text-sm tracking-[0.25em] uppercase font-semibold transition-all duration-500 hover:shadow-[0_0_30px_rgba(201,162,39,0.3)]"

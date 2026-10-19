@@ -16,7 +16,6 @@ export default function Footer() {
               {t('footer.tagline')}
             </p>
           </div>
-          {/*
           <div className="flex items-center gap-8">
             <a href="https://wa.me/+351915541985" target="_blank" rel="noopener noreferrer" className="text-midnight-400 hover:text-gold-400 transition-colors duration-300" aria-label="WhatsApp">
               <MessageCircle size={20} strokeWidth={1.5} />
@@ -24,11 +23,10 @@ export default function Footer() {
             <a href="mailto:geralmsignature@gmail.com" className="text-midnight-400 hover:text-gold-400 transition-colors duration-300" aria-label="Email">
               <Mail size={20} strokeWidth={1.5} />
             </a>
-            <a href="https://instagram.com/martinezm13" target="_blank" rel="noopener noreferrer" className="text-midnight-400 hover:text-gold-400 transition-colors duration-300" aria-label="Instagram">
+            <a href="https://www.instagram.com/m._signature/" target="_blank" rel="noopener noreferrer" className="text-midnight-400 hover:text-gold-400 transition-colors duration-300" aria-label="Instagram">
               <Instagram size={20} strokeWidth={1.5} />
             </a>
           </div>
-          */}
           <div className="flex flex-col items-end text-right">
             <p className="font-body text-xs text-midnight-500 tracking-wider">
               &copy; {new Date().getFullYear()} M Signature. {t('footer.rights')}

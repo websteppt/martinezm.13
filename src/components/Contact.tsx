@@ -25,14 +25,14 @@ export default function Contact() {
       href: 'mailto:geralmsignature@gmail.com',
       external: false,
     },
-    // {
-    //   icon: Instagram,
-    //   labelKey: 'contact.instagram.label',
-    //   valueKey: 'contact.instagram.value',
-    //   descKey: 'contact.instagram.description',
-    //   href: 'https://instagram.com/msignature',
-    //   external: true,
-    // },
+    {
+      icon: Instagram,
+      labelKey: 'contact.instagram.label',
+      valueKey: 'contact.instagram.value',
+      descKey: 'contact.instagram.description',
+      href: 'https://www.instagram.com/m._signature/',
+      external: true,
+    },
   ];
 
   return (

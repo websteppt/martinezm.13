@@ -114,6 +114,60 @@ export const translations: Record<Language, Record<string, string>> = {
       'Nota: A iluminação apresentada nas imagens é meramente ilustrativa e não está atualmente incluída nem disponível para fornecimento com esta peça.\n\n' +
       'Cada modelo é apresentado numa dimensão standard, cuidadosamente definida para preservar as proporções e o impacto visual da peça. Pretende uma dimensão diferente? Todos os nossos modelos podem ser produzidos por medida. Entre em contacto connosco e indique as dimensões pretendidas para avaliarmos a produção de uma versão personalizada para o seu espaço.',
 
+    'collection.col1.product7.name': 'Lux Marie',
+    'collection.col1.product7.description':
+      'Uma expressão de fé, luz e elegância intemporal.\n\n' +
+      'Lux Marie é uma homenagem a Nossa Senhora, figura maior da devoção cristã e símbolo de pureza, esperança e proteção.\n\n' +
+      'De mãos unidas em oração e olhar sereno, Nossa Senhora emerge no centro da composição, envolta por um halo radiante esculpido na própria pedra. O manto, delicadamente trabalhado e pontuado por estrelas, desce em pregas suaves que se fundem com o relevo envolvente.\n\n' +
+      'À sua volta, a pedra ondula em camadas orgânicas, como raios de luz que se propagam a partir da figura, conferindo à peça movimento, profundidade e uma forte presença escultórica.\n\n' +
+      'Cada detalhe evoca recolhimento, esperança e devoção, transformando este painel numa peça de arte sacra de forte simbolismo e identidade.\n\n' +
+      'Lux Marie transcende a decoração, tornando-se uma presença intemporal que confere elegância, serenidade e significado a qualquer espaço.\n\n' +
+      'Lux Marie. Onde a fé se torna luz.\n\n' +
+      'Nota: A iluminação apresentada nas imagens é meramente ilustrativa e não está atualmente incluída nem disponível para fornecimento com esta peça.\n\n' +
+      'Cada modelo é apresentado numa dimensão standard, cuidadosamente definida para preservar as proporções e o impacto visual da peça. Pretende uma dimensão diferente? Todos os nossos modelos podem ser produzidos por medida. Entre em contacto connosco e indique as dimensões pretendidas para avaliarmos a produção de uma versão personalizada para o seu espaço.',
+
+    'collection.col1.product8.name': 'Pater Aeternus',
+    'collection.col1.product8.description':
+      'O amor que sustenta a eternidade.\n\n' +
+      'Pater Aeternus é uma celebração do amor divino, da proteção e do vínculo eterno entre Pai e Filho.\n\n' +
+      'No centro da composição, Deus Pai acolhe o Menino Jesus nos seus braços, num gesto de ternura e proteção que contrasta com a imponência da matéria que os envolve. A serenidade dos rostos e a delicadeza do abraço revelam uma dimensão profundamente humana do amor celestial.\n\n' +
+      'Por detrás das figuras, a cruz emerge como símbolo de fé, sacrifício e redenção, estabelecendo uma ligação entre a inocência do Menino Jesus e o destino espiritual que marcaria a história do cristianismo.\n\n' +
+      'O profundo relevo tridimensional confere à composição uma presença escultórica monumental. As formas orgânicas da pedra, a riqueza dos detalhes e os contrastes de profundidade transformam a peça numa expressão artística de espiritualidade e devoção.\n\n' +
+      'Concebido para espaços onde a arte transcende a decoração, Pater Aeternus representa a força de um amor incondicional, capaz de atravessar o tempo e permanecer para além da própria existência.\n\n' +
+      'Pater Aeternus. Nos braços do Pai, a eternidade encontra o amor.\n\n' +
+      'Nota: A iluminação apresentada nas imagens é meramente ilustrativa e não está atualmente incluída nem disponível para fornecimento com esta peça.\n\n' +
+      'Cada modelo é apresentado numa dimensão standard, cuidadosamente definida para preservar as proporções e o impacto visual da peça. Pretende uma dimensão diferente? Todos os nossos modelos podem ser produzidos por medida. Entre em contacto connosco e indique as dimensões pretendidas para avaliarmos a produção de uma versão personalizada para o seu espaço.',
+
+    'collection.col1.product9.name': 'Cena Domini',
+    'collection.col1.product9.description':
+      'A presença que permanece.\n\n' +
+      'Cena Domini é uma interpretação escultórica de um dos momentos mais marcantes da história do cristianismo: a Última Ceia.\n\n' +
+      'Numa composição onde a ausência humana se transforma em presença espiritual, a mesa permanece preparada, evocando o instante sagrado em que Cristo partilhou o pão e o vinho com os seus discípulos.\n\n' +
+      'Cada elemento carrega um significado profundo. O pão representa a entrega, o vinho simboliza o sacrifício e a mesa torna-se uma expressão de comunhão, fé e amor incondicional.\n\n' +
+      'Ao fundo, a luz emerge de uma composição arquitetónica de inspiração sagrada, conferindo à obra uma atmosfera de serenidade e transcendência.\n\n' +
+      'A riqueza do relevo tridimensional, presente nas dobras dos tecidos, nos elementos da mesa e na textura mineral envolvente, transforma a cena numa peça escultórica de carácter intemporal.\n\n' +
+      'Cena Domini não representa apenas uma mesa vazia. Representa uma presença que nunca deixou de existir.\n\n' +
+      'Concebida para interiores onde a arte e a espiritualidade se encontram, esta peça convida à contemplação e à reflexão sobre o verdadeiro significado da fé, da partilha e da eternidade.\n\n' +
+      'Cena Domini. A mesa permanece. A fé também.\n\n' +
+      'Nota: A iluminação apresentada nas imagens é meramente ilustrativa e não está atualmente incluída nem disponível para fornecimento com esta peça.\n\n' +
+      'Cada modelo é apresentado numa dimensão standard, cuidadosamente definida para preservar as proporções e o impacto visual da peça. Pretende uma dimensão diferente? Todos os nossos modelos podem ser produzidos por medida. Entre em contacto connosco e indique as dimensões pretendidas para avaliarmos a produção de uma versão personalizada para o seu espaço.',
+
+    'collection.col1.product10.name': 'Noctis',
+    'collection.col1.product10.description':
+      'O chamamento da eternidade.\n\n' +
+      'Noctis nasce do encontro entre a força indomável da natureza e o mistério silencioso do universo.\n\n' +
+      'Numa paisagem onde a realidade parece aproximar-se do extraordinário, uma Lua monumental ergue-se sobre um horizonte de montanhas, revelando uma superfície marcada por crateras, fissuras e formações esculpidas pelo tempo.\n\n' +
+      'No primeiro plano, um lobo solitário eleva o seu olhar aos céus, deixando escapar um chamamento que parece atravessar a imensidão da noite.\n\n' +
+      'A composição transforma este instante numa representação escultórica de liberdade, instinto e ligação à natureza.\n\n' +
+      'Noctis é uma homenagem ao espírito indomável, àqueles que encontram na solidão não uma ausência, mas uma forma de liberdade.\n\n' +
+      'A grandiosidade da Lua contrasta com a presença singular do lobo, criando um equilíbrio entre a imensidão do universo e a determinação de quem permanece firme perante o desconhecido.\n\n' +
+      'O relevo tridimensional confere à obra uma profundidade extraordinária. As irregularidades da superfície lunar, as formações rochosas e os detalhes da figura animal estabelecem diferentes planos escultóricos, enquanto a incidência da luz revela novas texturas, sombras e contrastes.\n\n' +
+      'Concebido para interiores sofisticados, onde a arte assume um papel central na identidade do espaço, Noctis transforma uma parede numa paisagem de contemplação, mistério e imponência.\n\n' +
+      'Mais do que uma representação da natureza, esta criação procura despertar uma sensação universal: o desejo de liberdade, a coragem de seguir o próprio caminho e a necessidade de encontrar o nosso lugar perante a imensidão do mundo.\n\n' +
+      'Noctis — Há vozes que só a noite consegue ouvir.\n\n' +
+      'Nota: A iluminação apresentada nas imagens é meramente ilustrativa e não está atualmente incluída nem disponível para fornecimento com esta peça.\n\n' +
+      'Cada modelo é apresentado numa dimensão standard, cuidadosamente definida para preservar as proporções e o impacto visual da peça. Pretende uma dimensão diferente? Todos os nossos modelos podem ser produzidos por medida. Entre em contacto connosco e indique as dimensões pretendidas para avaliarmos a produção de uma versão personalizada para o seu espaço.',
+
     'collection.col2.name': 'Coleção Paredes Modulares',
     'collection.col2.description': 'Paredes modulares para interiores únicos.',
 
@@ -163,6 +217,37 @@ export const translations: Record<Language, Record<string, string>> = {
       'Nota: A iluminação apresentada nas imagens é meramente ilustrativa e não está atualmente incluída nem disponível para fornecimento com esta peça.\n\n' +
       'Cada modelo é apresentado numa dimensão standard, cuidadosamente definida para preservar as proporções e o impacto visual da peça. Pretende uma dimensão diferente? Todos os nossos modelos podem ser produzidos por medida. Entre em contacto connosco e indique as dimensões pretendidas para avaliarmos a produção de uma versão personalizada para o seu espaço.',
 
+    'collection.col2.product5.name': 'Aeterna',
+    'collection.col2.product5.description':
+      'Onde a natureza encontra a eternidade.\n\n' +
+      'Aeterna nasce da imponência das grandes formações montanhosas, onde a força da natureza e a passagem do tempo se encontram numa expressão de beleza intemporal.\n\n' +
+      'Inspirada na grandiosidade das paisagens alpinas, esta parede modular transforma a monumentalidade das montanhas numa composição escultórica de extraordinária profundidade. Picos imponentes, encostas fragmentadas e sucessivas camadas de relevo desenham uma paisagem que parece emergir da própria arquitetura, criando um equilíbrio singular entre a força da matéria e a elegância do espaço.\n\n' +
+      'Cada elevação, cada irregularidade e cada transição entre os diferentes planos foram concebidas para transmitir movimento, dimensão e autenticidade. A interação entre luz e sombra percorre as superfícies tridimensionais, revelando novos detalhes e perspetivas à medida que a iluminação se transforma.\n\n' +
+      'Aeterna representa mais do que uma paisagem. É uma expressão de permanência, liberdade e grandeza.\n\n' +
+      'As montanhas, símbolos ancestrais de resistência e superação, assumem aqui uma interpretação contemporânea, onde a natureza deixa de ser apenas contemplada para se tornar parte integrante do ambiente.\n\n' +
+      'Desenvolvida através de um sistema modular, esta composição permite transformar grandes superfícies numa obra escultórica contínua, integrando-se na arquitetura com uma presença simultaneamente monumental e sofisticada.\n\n' +
+      'Concebida para interiores de carácter distinto, desde suítes de luxo e residências contemporâneas até espaços de hospitalidade exclusivos, Aeterna estabelece uma relação única entre arte, natureza e arquitetura.\n\n' +
+      'Uma criação destinada a quem procura ultrapassar os limites da decoração convencional e transformar o seu espaço numa experiência visual verdadeiramente singular.\n\n' +
+      'Aeterna — Há grandezas que o tempo não consegue apagar.\n\n' +
+      'Nota: A iluminação apresentada nas imagens é meramente ilustrativa e não está atualmente incluída nem disponível para fornecimento com esta peça.\n\n' +
+      'Cada modelo é apresentado numa dimensão standard, cuidadosamente definida para preservar as proporções e o impacto visual da peça. Pretende uma dimensão diferente? Todos os nossos modelos podem ser produzidos por medida. Entre em contacto connosco e indique as dimensões pretendidas para avaliarmos a produção de uma versão personalizada para o seu espaço.',
+
+    'collection.col2.product6.name': 'Lunaris',
+    'collection.col2.product6.description':
+      'A eternidade esculpida no silêncio.\n\n' +
+      'Lunaris nasce do fascínio pelo desconhecido, da beleza dos mundos distantes e da imponência silenciosa de uma paisagem que permanece praticamente intocada pelo tempo.\n\n' +
+      'Inspirada na superfície lunar, esta parede modular transporta para a arquitetura contemporânea uma interpretação escultórica de um dos cenários mais enigmáticos do universo.\n\n' +
+      'Grandes crateras, depressões profundas, fissuras irregulares e sucessivas formações geológicas desenham uma composição de extraordinária riqueza visual, onde cada detalhe evoca a história de um território moldado por milhões de anos de impactos e transformações.\n\n' +
+      'Lunaris não procura simplesmente reproduzir a Lua. Procura transformar a sua essência numa experiência arquitetónica.\n\n' +
+      'A superfície tridimensional estabelece um diálogo permanente com a iluminação. A luz percorre as extremidades das crateras, revela a profundidade das cavidades e acentua as irregularidades do relevo, criando um jogo de contrastes que transforma a perceção da parede ao longo do dia.\n\n' +
+      'O equilíbrio entre as grandes formações circulares e a natureza imprevisível das fissuras confere à composição uma identidade simultaneamente orgânica, monumental e futurista.\n\n' +
+      'Desenvolvida através de um sistema modular, Lunaris permite transformar grandes superfícies numa paisagem escultórica contínua, ultrapassando os limites dos revestimentos decorativos tradicionais.\n\n' +
+      'Concebida para residências de luxo, espaços de arquitetura contemporânea, ambientes de hospitalidade exclusivos e interiores onde a singularidade assume um papel central, esta criação estabelece uma ligação inesperada entre a matéria, o espaço e o universo.\n\n' +
+      'Mais do que uma parede, Lunaris representa uma viagem visual para além do nosso mundo. Uma obra que desperta a curiosidade, convida à contemplação e transforma o desconhecido numa expressão de beleza intemporal.\n\n' +
+      'Lunaris — Um fragmento de outro mundo. Uma presença impossível de ignorar.\n\n' +
+      'Nota: A iluminação apresentada nas imagens é meramente ilustrativa e não está atualmente incluída nem disponível para fornecimento com esta peça.\n\n' +
+      'Cada modelo é apresentado numa dimensão standard, cuidadosamente definida para preservar as proporções e o impacto visual da peça. Pretende uma dimensão diferente? Todos os nossos modelos podem ser produzidos por medida. Entre em contacto connosco e indique as dimensões pretendidas para avaliarmos a produção de uma versão personalizada para o seu espaço.',
+
     // Custom Orders
     'custom.label': 'Além Da Coleção',
     'custom.heading': 'Encomendas Personalizadas',
@@ -188,7 +273,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'contact.email.value': 'geralmsignature@gmail.com',
     'contact.email.description': 'Rápida resposta ao seu pedido',
     'contact.instagram.label': 'Instagram',
-    'contact.instagram.value': '@msignature',
+    'contact.instagram.value': '@M._signature',
     'contact.instagram.description': 'Siga as nossas criações mais recentes',
     'contact.location': 'Mediante Agendamento — Mundial',
 
@@ -311,6 +396,60 @@ export const translations: Record<Language, Record<string, string>> = {
       'Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n' +
       "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
 
+    'collection.col1.product7.name': 'Lux Marie',
+    'collection.col1.product7.description':
+      'An expression of faith, light, and timeless elegance.\n\n' +
+      'Lux Marie is a tribute to Our Lady, a central figure of Christian devotion and a symbol of purity, hope, and protection.\n\n' +
+      'With hands joined in prayer and a serene gaze, Our Lady emerges at the heart of the composition, framed by a radiant halo carved into the stone itself. Her mantle, delicately worked and adorned with stars, falls in soft folds that merge with the surrounding relief.\n\n' +
+      'Around her, the stone ripples in organic layers, like rays of light spreading outward from the figure, giving the piece movement, depth, and a powerful sculptural presence.\n\n' +
+      'Every detail evokes contemplation, hope, and devotion, turning this panel into a work of sacred art with powerful symbolism and identity.\n\n' +
+      'Lux Marie transcends decoration, becoming a timeless presence that brings elegance, serenity, and meaning to any space.\n\n' +
+      'Lux Marie. Where faith becomes light.\n\n' +
+      'Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n' +
+      "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
+
+    'collection.col1.product8.name': 'Pater Aeternus',
+    'collection.col1.product8.description':
+      'The love that sustains eternity.\n\n' +
+      'Pater Aeternus is a celebration of divine love, protection, and the eternal bond between Father and Son.\n\n' +
+      'At the heart of the composition, God the Father holds the Child Jesus in His arms, in a gesture of tenderness and protection that contrasts with the grandeur of the material surrounding them. The serenity of their faces and the delicacy of the embrace reveal a deeply human dimension of heavenly love.\n\n' +
+      'Behind the figures, the cross emerges as a symbol of faith, sacrifice, and redemption, linking the innocence of the Child Jesus to the spiritual destiny that would shape the history of Christianity.\n\n' +
+      'The deep three-dimensional relief gives the composition a monumental sculptural presence. The organic forms of the stone, the richness of detail, and the contrasts of depth turn the piece into an artistic expression of spirituality and devotion.\n\n' +
+      'Designed for spaces where art transcends decoration, Pater Aeternus embodies the strength of unconditional love, able to cross time and endure beyond existence itself.\n\n' +
+      "Pater Aeternus. In the Father's arms, eternity meets love.\n\n" +
+      'Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n' +
+      "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
+
+    'collection.col1.product9.name': 'Cena Domini',
+    'collection.col1.product9.description':
+      'The presence that remains.\n\n' +
+      'Cena Domini is a sculptural interpretation of one of the most defining moments in the history of Christianity: the Last Supper.\n\n' +
+      'In a composition where human absence becomes spiritual presence, the table remains set, evoking the sacred moment when Christ shared bread and wine with His disciples.\n\n' +
+      'Every element carries deep meaning. The bread represents self-giving, the wine symbolizes sacrifice, and the table becomes an expression of communion, faith, and unconditional love.\n\n' +
+      'In the background, light emerges from an architectural composition of sacred inspiration, giving the work an atmosphere of serenity and transcendence.\n\n' +
+      'The richness of the three-dimensional relief — in the folds of the fabric, the elements on the table, and the surrounding mineral texture — turns the scene into a sculptural piece of timeless character.\n\n' +
+      'Cena Domini does not depict merely an empty table. It depicts a presence that never ceased to exist.\n\n' +
+      'Designed for interiors where art and spirituality meet, this piece invites contemplation and reflection on the true meaning of faith, sharing, and eternity.\n\n' +
+      'Cena Domini. The table remains. So does faith.\n\n' +
+      'Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n' +
+      "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
+
+    'collection.col1.product10.name': 'Noctis',
+    'collection.col1.product10.description':
+      'The call of eternity.\n\n' +
+      'Noctis is born from the meeting of the untamed force of nature and the silent mystery of the universe.\n\n' +
+      'In a landscape where reality seems to draw close to the extraordinary, a monumental Moon rises above a horizon of mountains, revealing a surface marked by craters, fissures, and formations sculpted by time.\n\n' +
+      'In the foreground, a lone wolf lifts its gaze to the sky, releasing a call that seems to travel across the vastness of the night.\n\n' +
+      'The composition turns this instant into a sculptural portrayal of freedom, instinct, and connection with nature.\n\n' +
+      'Noctis is a tribute to the untamed spirit, to those who find in solitude not an absence, but a form of freedom.\n\n' +
+      'The grandeur of the Moon contrasts with the singular presence of the wolf, striking a balance between the vastness of the universe and the resolve of those who stand firm before the unknown.\n\n' +
+      'The three-dimensional relief gives the work extraordinary depth. The irregularities of the lunar surface, the rock formations, and the details of the animal figure create distinct sculptural planes, while the play of light reveals new textures, shadows, and contrasts.\n\n' +
+      'Designed for sophisticated interiors where art plays a central role in the identity of the space, Noctis turns a wall into a landscape of contemplation, mystery, and grandeur.\n\n' +
+      "More than a depiction of nature, this creation seeks to awaken a universal feeling: the desire for freedom, the courage to follow one's own path, and the need to find our place in the vastness of the world.\n\n" +
+      'Noctis — Some voices only the night can hear.\n\n' +
+      'Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n' +
+      "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
+
     'collection.col2.name': 'Modular Walls Collection',
     'collection.col2.description': 'Modular wall panels for unique interiors.',
 
@@ -360,6 +499,37 @@ export const translations: Record<Language, Record<string, string>> = {
       'Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n' +
       "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
 
+    'collection.col2.product5.name': 'Aeterna',
+    'collection.col2.product5.description':
+      'Where nature meets eternity.\n\n' +
+      'Aeterna is born from the majesty of great mountain ranges, where the force of nature and the passage of time come together in an expression of timeless beauty.\n\n' +
+      'Inspired by the grandeur of alpine landscapes, this modular wall turns the monumental scale of the mountains into a sculptural composition of extraordinary depth. Towering peaks, fractured slopes, and successive layers of relief trace a landscape that seems to rise from the architecture itself, striking a rare balance between the strength of the material and the elegance of the space.\n\n' +
+      'Every rise, every irregularity, and every transition between planes has been designed to convey movement, scale, and authenticity. Light and shadow travel across the three-dimensional surfaces, revealing new details and perspectives as the lighting changes.\n\n' +
+      'Aeterna is more than a landscape. It is an expression of permanence, freedom, and greatness.\n\n' +
+      'Mountains, ancient symbols of endurance and perseverance, take on a contemporary interpretation here, where nature is no longer simply admired from afar but becomes an integral part of the space.\n\n' +
+      'Built on a modular system, this composition turns large surfaces into a continuous sculptural work, blending into the architecture with a presence that is at once monumental and refined.\n\n' +
+      'Designed for interiors of distinctive character, from luxury suites and contemporary residences to exclusive hospitality spaces, Aeterna creates a unique dialogue between art, nature, and architecture.\n\n' +
+      'A creation for those who wish to go beyond the limits of conventional decoration and turn their space into a truly singular visual experience.\n\n' +
+      'Aeterna — Some greatness not even time can erase.\n\n' +
+      'Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n' +
+      "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
+
+    'collection.col2.product6.name': 'Lunaris',
+    'collection.col2.product6.description':
+      'Eternity sculpted in silence.\n\n' +
+      'Lunaris is born from a fascination with the unknown, the beauty of distant worlds, and the silent majesty of a landscape left almost untouched by time.\n\n' +
+      'Inspired by the lunar surface, this modular wall brings into contemporary architecture a sculptural interpretation of one of the most enigmatic landscapes in the universe.\n\n' +
+      'Vast craters, deep depressions, irregular fissures, and successive geological formations create a composition of extraordinary visual richness, where every detail tells the story of a terrain shaped by millions of years of impacts and transformation.\n\n' +
+      'Lunaris does not simply seek to reproduce the Moon. It seeks to transform its essence into an architectural experience.\n\n' +
+      'The three-dimensional surface holds a constant dialogue with light. Light traces the rims of the craters, reveals the depth of the hollows, and accentuates the irregularities of the relief, creating a play of contrasts that changes how the wall is perceived throughout the day.\n\n' +
+      'The balance between the great circular formations and the unpredictable nature of the fissures gives the composition an identity that is at once organic, monumental, and futuristic.\n\n' +
+      'Built on a modular system, Lunaris turns large surfaces into a continuous sculptural landscape, going beyond the limits of traditional decorative cladding.\n\n' +
+      'Designed for luxury residences, contemporary architectural spaces, exclusive hospitality settings, and interiors where uniqueness takes center stage, this creation forges an unexpected connection between material, space, and the universe.\n\n' +
+      'More than a wall, Lunaris is a visual journey beyond our world. A work that sparks curiosity, invites contemplation, and turns the unknown into an expression of timeless beauty.\n\n' +
+      'Lunaris — A fragment of another world. A presence impossible to ignore.\n\n' +
+      'Note: The lighting shown in the images is for illustration purposes only and is not currently included or available for supply with this piece.\n\n' +
+      "Each model is shown in a standard size, carefully defined to preserve the piece's proportions and visual impact. Looking for a different size? All our models can be custom made. Contact us with your desired dimensions so we can evaluate producing a personalized version for your space.",
+
     // Custom Orders
     'custom.label': 'Beyond The Collection',
     'custom.heading': 'Custom Orders',
@@ -385,7 +555,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'contact.email.value': 'geralmsignature@gmail.com',
     'contact.email.description': 'For detailed inquiries',
     'contact.instagram.label': 'Instagram',
-    'contact.instagram.value': '@msignature',
+    'contact.instagram.value': '@M._signature',
     'contact.instagram.description': 'Follow our latest creations',
     'contact.location': 'By Appointment — Worldwide',
 

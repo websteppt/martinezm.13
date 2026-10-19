@@ -8,6 +8,9 @@ import painel_portucale from '../assets/products/painel_portucale.jpeg';
 import painel_redemption from '../assets/products/painel_redemption.jpeg';
 import painel_terra from '../assets/products/painel_terra.jpeg';
 import painel_vigilis from '../assets/products/painel_vigilis.jpeg';
+import painel_luxmarie from '../assets/products/painel_luxmarie.jpeg';
+import painel_pateraeternus from '../assets/products/painel_pateraeternus.jpeg';
+import painel_cenadomini from '../assets/products/painel_cenadomini.jpeg';
 import cover1 from '../assets/products/cover1.png';
 import cover2 from '../assets/products/cover2.png';
 import cover3 from '../assets/products/cover3.png';
@@ -16,6 +19,11 @@ import quartzitedrift from '../assets/products/quartzitedrift.png';
 import stonemono from '../assets/products/stonemono.png';
 import stoneorig from '../assets/products/stoneorig.png';
 import strataveil from '../assets/products/strataveil.png';
+import parede_aeterna from '../assets/products/parede_aeterna.jpeg';
+import aeterna_formato from '../assets/products/aeterna_formato.jpeg';
+import parede_lunaris from '../assets/products/parede_lunaris.jpeg';
+import lunaris_formato from '../assets/products/lunaris_formato.jpeg';
+import painel_noctis from '../assets/products/painel_noctis.jpeg';
 
 type Product = {
   id: string;
@@ -42,6 +50,10 @@ const collectionsData: Record<string, CollectionData> = {
       { id: 'p4', name: 'collection.col1.product4.name', description: 'collection.col1.product4.description', image: painel_redemption },
       { id: 'p5', name: 'collection.col1.product5.name', description: 'collection.col1.product5.description', image: painel_terra },
       { id: 'p6', name: 'collection.col1.product6.name', description: 'collection.col1.product6.description', image: painel_vigilis },
+      { id: 'p7', name: 'collection.col1.product7.name', description: 'collection.col1.product7.description', image: painel_luxmarie },
+      { id: 'p8', name: 'collection.col1.product8.name', description: 'collection.col1.product8.description', image: painel_pateraeternus },
+      { id: 'p9', name: 'collection.col1.product9.name', description: 'collection.col1.product9.description', image: painel_cenadomini },
+      { id: 'p10', name: 'collection.col1.product10.name', description: 'collection.col1.product10.description', image: painel_noctis },
     ],
   },
   col2: {
@@ -52,6 +64,8 @@ const collectionsData: Record<string, CollectionData> = {
       { id: 'p2', name: 'collection.col2.product2.name', description: 'collection.col2.product2.description', image: cover3, formatImage: stonemono },
       { id: 'p3', name: 'collection.col2.product3.name', description: 'collection.col2.product3.description', image: cover4, formatImage: stoneorig },
       { id: 'p4', name: 'collection.col2.product4.name', description: 'collection.col2.product4.description', image: cover1, formatImage: strataveil },
+      { id: 'p5', name: 'collection.col2.product5.name', description: 'collection.col2.product5.description', image: parede_aeterna, formatImage: aeterna_formato },
+      { id: 'p6', name: 'collection.col2.product6.name', description: 'collection.col2.product6.description', image: parede_lunaris, formatImage: lunaris_formato },
     ],
   },
 };
